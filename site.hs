@@ -13,7 +13,10 @@ compileIndex :: Rules ()
 compileIndex = do
     route idRoute -- TODO: make a "copy to root" route?
     compile $ do
-      let indexCtx = defaultContext
+      posts <- loadAll "posts/*" >>= fmap (take 5) . recentFirst
+      let indexCtx =
+            listField "posts" postCtx (return posts) `mappend`
+            defaultContext
 
       getResourceBody
         >>= applyAsTemplate indexCtx
