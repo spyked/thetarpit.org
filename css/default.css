@@ -1,0 +1,18 @@
+body {
+    margin: 0px auto 0px auto;
+    width: 700px;
+}
+
+#header {
+}
+
+#logo {
+}
+
+#navigation {
+	text-align: right;
+}
+
+#footer {
+	text-align: right;
+}
