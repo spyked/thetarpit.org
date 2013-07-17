@@ -36,4 +36,4 @@ compilePosts = do
     >>= relativizeUrls
 
 postCtx :: Context String
-postCtx = dateField "date" "$B %e, %Y" `mappend` defaultContext
+postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
