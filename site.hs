@@ -5,6 +5,7 @@ import           Hakyll
 main :: IO ()
 main = hakyll $ do
   match "index.html" compileIndex
+  match "css/*" compileCss
   match "posts/*" compilePosts
   match "templates/*" $ compile templateCompiler
 
@@ -18,6 +19,11 @@ compileIndex = do
         >>= applyAsTemplate indexCtx
         >>= loadAndApplyTemplate "templates/default.html" indexCtx
         >>= relativizeUrls
+
+compileCss :: Rules ()
+compileCss = do
+  route idRoute
+  compile compressCssCompiler
 
 compilePosts :: Rules ()
 compilePosts = do
