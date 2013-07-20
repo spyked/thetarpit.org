@@ -8,6 +8,15 @@ body {
 	font-family: 'Didact Gothic', Helvetica;
 }
 
+a {
+	color: #5B756C;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 #header {
 }
 
