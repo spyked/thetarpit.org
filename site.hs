@@ -37,6 +37,7 @@ compilePosts = do
   route $ setExtension "html"
   compile $ pandocCompiler
     >>= saveSnapshot "content"
+    >>= loadAndApplyTemplate "templates/post.html" postCtx
     >>= loadAndApplyTemplate "templates/default.html" postCtx
     >>= relativizeUrls
 
