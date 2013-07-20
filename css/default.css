@@ -25,10 +25,17 @@ a:hover {
 	text-decoration: underline;
 }
 
+pre {
+	width: 99%;
+	margin-left: auto; margin-right: auto;
+}
+
 code {
 	display: block;
-	padding: 0 3px 2px;
+	padding: 2px 9px 3px;
+	font-size: 19px;
 	border: 0.5px solid #bebab0;
+	font-family: 'Ubuntu Mono', Monospace;
 }
 
 .info {
