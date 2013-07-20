@@ -4,4 +4,6 @@ author: Lucian Mogoșanu
 date: July 20, 2013
 ---
 
-`*** Exception: TarPit.undefined`
+~~~~ {.haskell}
+*** Exception: TarPit.undefined
+~~~~
