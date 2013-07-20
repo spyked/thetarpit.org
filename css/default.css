@@ -53,4 +53,10 @@ a:hover {
 
 #footer {
 	text-align: right;
+	padding: 12px 0px 12px 0px;
+	font-size: 14px;
+	margin-top: 30px;
+
+	border-top: dashed 1.5px #aaa;
+	color: #555;
 }
