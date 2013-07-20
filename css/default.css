@@ -8,6 +8,14 @@ body {
 	font-family: 'Didact Gothic', Helvetica;
 }
 
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
 a {
 	color: #5B756C;
 	text-decoration: none;
