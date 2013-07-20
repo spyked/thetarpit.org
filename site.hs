@@ -9,8 +9,10 @@ main = hakyll $ do
   match "posts/*" compilePosts
   match (fromList ["about.markdown"]) compilePages
   create ["archive.html"] compileArchive
+  create ["rss.xml"] compileRss
   match "templates/*" $ compile templateCompiler
 
+-- compilers go here
 compileIndex :: Rules ()
 compileIndex = do
     route idRoute -- TODO: make a "copy to root" route?
@@ -34,6 +36,7 @@ compilePosts :: Rules ()
 compilePosts = do
   route $ setExtension "html"
   compile $ pandocCompiler
+    >>= saveSnapshot "content"
     >>= loadAndApplyTemplate "templates/default.html" postCtx
     >>= relativizeUrls
 
@@ -58,5 +61,27 @@ compileArchive = do
       >>= loadAndApplyTemplate "templates/default.html" archiveCtx
       >>= relativizeUrls
 
+compileRss :: Rules ()
+compileRss = do
+  -- shamelessly stolen from
+  -- http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html
+  route idRoute
+  compile $ do
+    let feedCtx = postCtx `mappend` bodyField "description"
+    posts <- loadAllSnapshots "posts/*" "content"
+      >>= fmap (take 7) . recentFirst
+    renderRss tarpitFeed feedCtx posts
+
+-- post context
 postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
+
+-- support for RSS feeds
+tarpitFeed :: FeedConfiguration
+tarpitFeed = FeedConfiguration
+  { feedTitle       = "The Tar Pit"
+  , feedDescription = "tarpit :: IO ()"
+  , feedAuthorName  = "Lucian Mogoșanu"
+  , feedAuthorEmail = ""
+  , feedRoot        = "http://thetarpit.org"
+  }
