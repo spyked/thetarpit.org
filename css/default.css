@@ -1,6 +1,11 @@
 body {
-    margin: 0px auto 0px auto;
-    width: 700px;
+	margin: 0px auto 0px auto;
+	width: 700px;
+	font-size: 18px;
+	text-align: justify;
+
+	color: #35353a;
+	font-family: 'Didact Gothic', Helvetica;
 }
 
 #header {
