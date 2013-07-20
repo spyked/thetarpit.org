@@ -7,6 +7,7 @@ main = hakyll $ do
   match "index.html" compileIndex
   match "css/*" compileCss
   match "posts/*" compilePosts
+  match (fromList ["about.markdown"]) compilePages
   match "templates/*" $ compile templateCompiler
 
 compileIndex :: Rules ()
@@ -33,6 +34,13 @@ compilePosts = do
   route $ setExtension "html"
   compile $ pandocCompiler
     >>= loadAndApplyTemplate "templates/default.html" postCtx
+    >>= relativizeUrls
+
+compilePages :: Rules ()
+compilePages = do
+  route $ setExtension "html"
+  compile $ pandocCompiler
+    >>= loadAndApplyTemplate "templates/default.html" defaultContext
     >>= relativizeUrls
 
 postCtx :: Context String
