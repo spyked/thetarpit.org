@@ -2,14 +2,26 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 
+-- wrapping it up
 main :: IO ()
 main = hakyll $ do
+  -- tags
+  tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
+
+  -- content
   match "index.html" compileIndex
   match "css/*" compileCss
-  match "posts/*" compilePosts
+  match "posts/*" $ compilePosts tags
   match (fromList ["about.markdown"]) compilePages
   create ["archive.html"] compileArchive
+
+  -- tags rules
+  tagsRules tags $ compileTags tags
+
+  -- rss feed
   create ["rss.xml"] compileRss
+
+  -- compile templates
   match "templates/*" $ compile templateCompiler
 
 -- compilers go here
@@ -32,13 +44,14 @@ compileCss = do
   route idRoute
   compile compressCssCompiler
 
-compilePosts :: Rules ()
-compilePosts = do
+compilePosts :: Tags -> Rules ()
+compilePosts tags = do
   route $ setExtension "html"
+  let ctx = tagsCtx tags
   compile $ pandocCompiler
     >>= saveSnapshot "content"
-    >>= loadAndApplyTemplate "templates/post.html" postCtx
-    >>= loadAndApplyTemplate "templates/default.html" postCtx
+    >>= loadAndApplyTemplate "templates/post.html" ctx
+    >>= loadAndApplyTemplate "templates/default.html" ctx
     >>= relativizeUrls
 
 compilePages :: Rules ()
@@ -62,6 +75,22 @@ compileArchive = do
       >>= loadAndApplyTemplate "templates/default.html" archiveCtx
       >>= relativizeUrls
 
+compileTags :: Tags -> String -> Pattern -> Rules ()
+compileTags tags tag pattern = do
+  let title = "Posts tagged '" ++ tag ++ "'"
+  route idRoute
+  compile $ do
+    posts <- loadAll pattern >>= recentFirst
+    let tagCtx =
+          constField "title" title                 `mappend`
+          listField "posts" postCtx (return posts) `mappend`
+          tagsCtx tags
+    makeItem ""
+      >>= loadAndApplyTemplate "templates/post-list.html" tagCtx
+      >>= loadAndApplyTemplate "templates/default.html" tagCtx
+      >>= relativizeUrls
+
+
 compileRss :: Rules ()
 compileRss = do
   -- shamelessly stolen from
@@ -81,6 +110,9 @@ compileRss = do
 -- post context
 postCtx :: Context String
 postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
+
+tagsCtx :: Tags -> Context String
+tagsCtx tags = tagsField "tags" tags `mappend` postCtx
 
 -- support for RSS feeds
 tarpitFeed :: FeedConfiguration

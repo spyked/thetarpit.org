@@ -29,12 +29,16 @@ a:hover {
 	color: #555;
 	font-size: 15px;
 	font-style: italic;
-	margin-top: -12px;
+	margin-top: -15px;
 }
 
 .info sup {
 	color: #C2CBCE;
 	font-style: normal;
+}
+
+.tags {
+	color: #333;
 }
 
 #header {
