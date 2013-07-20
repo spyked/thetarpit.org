@@ -25,6 +25,18 @@ a:hover {
 	text-decoration: underline;
 }
 
+.info {
+	color: #555;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: -12px;
+}
+
+.info sup {
+	color: #C2CBCE;
+	font-style: normal;
+}
+
 #header {
 	border-bottom: 1.5px dashed #aaa;
 	margin-bottom: 30px;
