@@ -18,13 +18,37 @@ a:hover {
 }
 
 #header {
+	border-bottom: 1.5px dashed #aaa;
+	margin-bottom: 30px;
+	padding: 18px 0px 18px 0px;
 }
 
-#logo {
+#logo a {
+	color: #333;
+	float: left;
+	font-size: 34px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logo a:hover {
+	color: #5B756C;
 }
 
 #navigation {
 	text-align: right;
+	margin-top: 10.5px;
+}
+
+#navigation a {
+	color: #C2CBCE;
+	font-size: 22px;
+	margin-left: 12px;
+	text-decoration: none;
+}
+
+#navigation a:hover {
+	color: #5B756C;
 }
 
 #footer {
