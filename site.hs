@@ -67,8 +67,13 @@ compileRss = do
   -- http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html
   route idRoute
   compile $ do
-    let feedCtx = postCtx `mappend` bodyField "description"
+    let feedCtx =
+          postCtx                         `mappend`
+          teaserField "teaser" "content"  `mappend`
+          bodyField "description"
+        applyTeaser = loadAndApplyTemplate "templates/teaser.html" feedCtx
     posts <- loadAllSnapshots "posts/*" "content"
+      >>= mapM applyTeaser
       >>= fmap (take 7) . recentFirst
     renderRss tarpitFeed feedCtx posts
 
