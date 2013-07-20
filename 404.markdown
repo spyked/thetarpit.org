@@ -1,0 +1,7 @@
+---
+title: Four, oh, four, page not found
+author: Lucian Mogoșanu
+date: July 20, 2013
+---
+
+`*** Exception: TarPit.undefined`
