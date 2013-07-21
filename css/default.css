@@ -5,7 +5,11 @@ body {
 	text-align: justify;
 
 	color: #35353a;
-	font-family: 'Didact Gothic', Helvetica;
+	font-family: 'Cardo', Helvetica;
+}
+
+h1, #header, .info {
+	font-family: 'Alegreya', Helvetica;
 }
 
 h1 {
