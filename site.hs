@@ -1,6 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Hakyll
+import Data.Monoid (mappend)
+import Hakyll
+import Hakyll.Core.Configuration
 
 -- wrapping it up
 main :: IO ()
@@ -113,6 +114,14 @@ postCtx = dateField "date" "%B %e, %Y" `mappend` defaultContext
 
 tagsCtx :: Tags -> Context String
 tagsCtx tags = tagsField "tags" tags `mappend` postCtx
+
+-- hakyll configuration
+tarpitConfiguration :: Configuration
+tarpitConfiguration = defaultConfiguration
+  { deployCommand = commStr }
+  where
+  commStr = "rsync -avz -e 'ssh -p 2200'"
+         ++ "_site mogosanu.ro:/virtual/sites/thetarpit.org"
 
 -- support for RSS feeds
 tarpitFeed :: FeedConfiguration
