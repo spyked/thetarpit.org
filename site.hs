@@ -5,7 +5,7 @@ import Hakyll.Core.Configuration
 
 -- wrapping it up
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith tarpitConfiguration $ do
   -- tags
   tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
 
