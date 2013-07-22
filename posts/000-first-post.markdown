@@ -2,7 +2,7 @@
 postid: 000
 title: First post
 author: Lucian Mogoșanu
-date: July 21, 2013
+date: July 22, 2013
 tags: asphalt
 ---
 
