@@ -60,7 +60,8 @@ compilePages = do
   route $ setExtension "html"
   compile $ pandocCompiler
     >>= loadAndApplyTemplate "templates/default.html" defaultContext
-    >>= relativizeUrls
+    -- relative URLs break 404 pages, so don't do it here
+    -- >>= relativizeUrls
 
 compileArchive :: Rules ()
 compileArchive = do
