@@ -1,0 +1,9 @@
+---
+title: Four, oh, three, forbidden
+author: Lucian Mogoșanu
+date: July 20, 2013
+---
+
+~~~~ {.haskell}
+putStrLn "Thou shall not pass!"
+~~~~

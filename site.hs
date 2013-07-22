@@ -13,7 +13,7 @@ main = hakyllWith tarpitConfiguration $ do
   match "index.html" compileIndex
   match "css/*" compileCss
   match "posts/*" $ compilePosts tags
-  match (fromList ["about.markdown", "404.markdown"]) compilePages
+  match (fromList ["about.markdown", "404.markdown", "403.markdown"]) compilePages
   create ["archive.html"] compileArchive
 
   -- tags rules
