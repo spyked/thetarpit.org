@@ -120,8 +120,8 @@ tarpitConfiguration :: Configuration
 tarpitConfiguration = defaultConfiguration
   { deployCommand = commStr }
   where
-  commStr = "rsync -avz -e 'ssh -p 2200'"
-         ++ "_site mogosanu.ro:/virtual/sites/thetarpit.org"
+  commStr = "rsync -avz -e 'ssh -p 2200' "
+         ++ "_site/* mogosanu.ro:/virtual/sites/thetarpit.org"
 
 -- support for RSS feeds
 tarpitFeed :: FeedConfiguration
