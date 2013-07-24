@@ -58,6 +58,17 @@ code {
 	color: #333;
 }
 
+.footnotes {
+	font-size: 15px;
+	color: #656565;
+}
+
+.footnotes hr {
+	width: 70%;
+	border: 0;
+	border-bottom: 0.5px dotted #e5e5e5;
+}
+
 #header {
 	border-bottom: 1.5px dashed #aaa;
 	margin-bottom: 30px;
