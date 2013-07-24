@@ -21,7 +21,8 @@ h2 {
 }
 
 a {
-	color: #5B756C;
+	//color: #067359;
+	color: #08767F;
 	text-decoration: none;
 }
 
@@ -47,6 +48,10 @@ code {
 	font-size: 15px;
 	font-style: italic;
 	margin-top: -15px;
+}
+
+.info a {
+	color: #5B756C;
 }
 
 .info sup {
