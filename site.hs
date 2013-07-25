@@ -15,6 +15,7 @@ main = hakyllWith tarpitConfiguration $ do
   match "index.html" compileIndex
   match "css/*" compileCss
   match "posts/*" $ compilePosts tags
+  match "images/*" $ compileImages
   match (fromList pages) compilePages
   create ["archive.html"] compileArchive
 
@@ -56,6 +57,11 @@ compilePosts tags = do
     >>= loadAndApplyTemplate "templates/post.html" ctx
     >>= loadAndApplyTemplate "templates/default.html" ctx
     >>= relativizeUrls
+
+compileImages :: Rules ()
+compileImages = do
+  route idRoute
+  compile copyFileCompiler
 
 compilePages :: Rules ()
 compilePages = do
