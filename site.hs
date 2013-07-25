@@ -6,6 +6,8 @@ import Hakyll.Core.Configuration
 -- wrapping it up
 main :: IO ()
 main = hakyllWith tarpitConfiguration $ do
+  let pages = ["about.markdown", "contact.markdown",
+               "404.markdown", "403.markdown"]
   -- tags
   tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
 
@@ -13,7 +15,7 @@ main = hakyllWith tarpitConfiguration $ do
   match "index.html" compileIndex
   match "css/*" compileCss
   match "posts/*" $ compilePosts tags
-  match (fromList ["about.markdown", "404.markdown", "403.markdown"]) compilePages
+  match (fromList pages) compilePages
   create ["archive.html"] compileArchive
 
   -- tags rules
