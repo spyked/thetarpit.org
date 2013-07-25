@@ -16,6 +16,8 @@ years. But I felt an urge to write, in very much the same way someone needs to
 pee after five beers. And I was motivated by two main ideas that I can
 remember.
 
+<!--more-->
+
 Firstly, I had started reading seriously since three or four years before. I
 hadn't read much else besides Romanian literature, which, mind you, can prove
 to be excruciatingly dull at times[^1], but I was interested in structure and
