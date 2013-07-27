@@ -26,7 +26,7 @@ science: ask an impertinent question, and you are on the way to a pertinent
 answer". As [Alan Perlis][3] would put it, albeit in a slightly different
 context, "Beware of the Turing tar-pit in which everything is possible but
 nothing of interest is easy". A word of warning, though: a significant part of
-the things written here are half-baked.
+the ideas exposed here are half-baked.
 
 Additionally, this is Lucian Mogoșanu's personal blog and thus will contain
 all sorts of other things that I find interesting. You can find more about me
