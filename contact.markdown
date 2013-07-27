@@ -4,7 +4,7 @@ author: Lucian Mogoșanu
 date: July 24, 2013
 ---
 
-* E-mail: [lucian [at] thetarpit org][1]
+* [E-mail][1]
 * IRC/Freenode: spyked
 
 I'm also on:
