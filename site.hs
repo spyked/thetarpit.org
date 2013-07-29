@@ -1,11 +1,14 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Data.Monoid (mappend)
+import Text.Pandoc
 import Hakyll
 import Hakyll.Core.Configuration
 
 -- wrapping it up
 main :: IO ()
 main = hakyllWith tarpitConfiguration $ do
+  let pages = ["about.markdown", "contact.markdown",
+               "404.markdown", "403.markdown"]
   -- tags
   tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
 
@@ -13,7 +16,8 @@ main = hakyllWith tarpitConfiguration $ do
   match "index.html" compileIndex
   match "css/*" compileCss
   match "posts/*" $ compilePosts tags
-  match (fromList ["about.markdown", "404.markdown", "403.markdown"]) compilePages
+  match "images/*" $ compileImages
+  match (fromList pages) compilePages
   create ["archive.html"] compileArchive
 
   -- tags rules
@@ -49,16 +53,21 @@ compilePosts :: Tags -> Rules ()
 compilePosts tags = do
   route $ setExtension "html"
   let ctx = tagsCtx tags
-  compile $ pandocCompiler
+  compile $ tarpitCompiler
     >>= saveSnapshot "content"
     >>= loadAndApplyTemplate "templates/post.html" ctx
     >>= loadAndApplyTemplate "templates/default.html" ctx
     >>= relativizeUrls
 
+compileImages :: Rules ()
+compileImages = do
+  route idRoute
+  compile copyFileCompiler
+
 compilePages :: Rules ()
 compilePages = do
   route $ setExtension "html"
-  compile $ pandocCompiler
+  compile $ tarpitCompiler
     >>= loadAndApplyTemplate "templates/default.html" defaultContext
     -- relative URLs break 404 pages, so don't do it here
     -- >>= relativizeUrls
@@ -123,6 +132,18 @@ tarpitConfiguration = defaultConfiguration
   where
   commStr = "rsync -avz -e 'ssh -p 2200' "
          ++ "_site/* mogosanu.ro:/virtual/sites/thetarpit.org"
+
+-- pandoc reader and writer options
+tarpitReaderOptions :: ReaderOptions
+tarpitReaderOptions = defaultHakyllReaderOptions
+
+tarpitWriterOptions :: WriterOptions
+tarpitWriterOptions = defaultHakyllWriterOptions
+  { writerHTMLMathMethod = MathML Nothing }
+
+-- tarpit compiler
+tarpitCompiler :: Compiler (Item String)
+tarpitCompiler = pandocCompilerWith tarpitReaderOptions tarpitWriterOptions
 
 -- support for RSS feeds
 tarpitFeed :: FeedConfiguration
