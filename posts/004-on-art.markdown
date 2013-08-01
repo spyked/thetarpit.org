@@ -1,5 +1,5 @@
 ---
-postid: 
+postid: 004
 title: On art
 author: Lucian Mogoșanu
 date: August 1, 2013
@@ -15,6 +15,8 @@ breast.
 
 That being said, what follows is my view of art; mine and mine only, and I find
 no pleasure whatsoever in knowing that others may or may not share it.
+
+<!--more-->
 
 The word "art" comes from the latin "ars", which means "skill", or "craft", and
 is closely related to "arma", which refers to joining, fitting together etc. So
