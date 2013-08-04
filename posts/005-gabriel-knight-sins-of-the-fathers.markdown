@@ -40,7 +40,7 @@ experience. In other words, even more cliché.
 src="/images/2013/08/gk-009-thumb.png" title="One of the rare player deaths in the game. Not as frustrating as it might seem."/>
 </a></span>
 Fortunately, the story gets interesting when Gabriel starts to delve into New
-Orleans' Vodoo history, which, as far as I can tell from the point of view of a
+Orleans' Voodoo history, which, as far as I can tell from the point of view of a
 non-specialist, is very well documented within the game. A lot of the high
 points of the game are entirely made up of Voodoo lore, exploring the subject a
 lot deeper than other adventure games involving more "exotic" cultures, from
@@ -48,7 +48,7 @@ what I've played[^2].
 
 Another aspect that kept me hooked was the "little" things, elements of the
 story, that come up as the story advances, from short poems to the daily
-astrological forecast. Symbols are often present were you least expect them and
+astrological forecast. Symbols are often present where you least expect them and
 all these things are tightly integrated so that they give the player a more
 book-like experience, an experience which is also enhanced by the narrator's
 rather peculiar voice. This is more so relevant as the narrator doesn't just
