@@ -75,7 +75,7 @@ code {
 .footnotes hr {
 	width: 70%;
 	border: 0;
-	border-bottom: 0.5px dotted #e5e5e5;
+	border-bottom: 1px dotted #e5e5e5;
 }
 
 span.imgleft {
