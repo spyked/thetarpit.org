@@ -16,7 +16,7 @@ main = hakyllWith tarpitConfiguration $ do
   match "index.html" compileIndex
   match "css/*" compileCss
   match "posts/*" $ compilePosts tags
-  match "images/*" $ compileImages
+  match "images/**" $ compileImages
   match (fromList pages) compilePages
   create ["archive.html"] compileArchive
 
