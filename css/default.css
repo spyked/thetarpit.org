@@ -78,6 +78,32 @@ code {
 	border-bottom: 0.5px dotted #e5e5e5;
 }
 
+span.imgleft {
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+span.imgright {
+	display: inline-block;
+	float: right;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+img.thumb {
+	padding: 5px 7px 5px 7px;
+	background-color: #f7f7f9;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #e0e0e0;
+}
+
+a:hover img {
+	text-decoration: none;
+}
+
 #header {
 	border-bottom: 1.5px dashed #aaa;
 	margin-bottom: 30px;
