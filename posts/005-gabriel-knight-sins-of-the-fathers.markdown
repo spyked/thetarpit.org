@@ -16,6 +16,8 @@ PC about five years later. Actually I only played Gabriel Knight about a few
 months ago, which is pretty odd considering the bunch of awesome adventure
 games I had experienced before.
 
+<!--more-->
+
 <span class="imgright"><a href="/images/2013/08/gk-007.png">
 <img class="thumb"
 src="/images/2013/08/gk-007-thumb.png" title="Mr. Knight and some guy"/></a></span>
