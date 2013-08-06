@@ -9,7 +9,7 @@ body {
 }
 
 h1, #header, .info {
-	font-family: 'Alegreya', Helvetica;
+	font-family: 'Underdog', Helvetica;
 }
 
 h1 {
@@ -48,8 +48,8 @@ code {
 }
 
 .info {
-	color: #555;
-	font-size: 15px;
+	color: #889;
+	font-size: 14px;
 	font-style: italic;
 	margin-top: -15px;
 }
