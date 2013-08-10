@@ -16,5 +16,12 @@
   font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://thetarpit.org/css/fonts/UbuntuMono.ttf) format('truetype');
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(/css/fonts/UbuntuMono.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Asana Math';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Asana Math'), local('AsanaMath-Regular'), url(/css/fonts/Asana-Math.ttf) format('truetype');
 }

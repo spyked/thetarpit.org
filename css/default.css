@@ -54,6 +54,10 @@ code {
 	font-family: 'Ubuntu Mono', Monospace;
 }
 
+math {
+	font-family: 'Asana Math', DejaVu Sans, Helvetica;
+}
+
 .info {
 	color: #889;
 	font-size: 14px;
