@@ -119,4 +119,4 @@ when we come to it.
 
 [1]: https://www.youtube.com/watch?v=BdAeqtw3KeQ
 [2]: http://lucian.mogosanu.ro/bricks/de-ce-nat-ul-e-o-idee-proasta "de ce nat-ul e o idee proastă"
-[3]: /posts/001-introduction.html "The Tar Pit: an introduction"
+[3]: /posts/y00/001-introduction.html "The Tar Pit: an introduction"
