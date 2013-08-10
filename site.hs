@@ -17,6 +17,7 @@ main = hakyllWith tarpitConfiguration $ do
   match "css/*" compileCss
   match "posts/**" $ compilePosts tags
   match "images/**" $ compileImages
+  match "css/fonts/*" $ compileFonts
   match (fromList pages) compilePages
   create ["archive.html"] compileArchive
 
@@ -63,6 +64,9 @@ compileImages :: Rules ()
 compileImages = do
   route idRoute
   compile copyFileCompiler
+
+compileFonts :: Rules ()
+compileFonts = compileImages
 
 compilePages :: Rules ()
 compilePages = do
