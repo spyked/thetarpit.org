@@ -10,12 +10,12 @@ main = hakyllWith tarpitConfiguration $ do
   let pages = ["about.markdown", "contact.markdown",
                "404.markdown", "403.markdown"]
   -- tags
-  tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
+  tags <- buildTags "posts/**" $ fromCapture "tags/*.html"
 
   -- content
   match "index.html" compileIndex
   match "css/*" compileCss
-  match "posts/*" $ compilePosts tags
+  match "posts/**" $ compilePosts tags
   match "images/**" $ compileImages
   match (fromList pages) compilePages
   create ["archive.html"] compileArchive
@@ -34,7 +34,7 @@ compileIndex :: Rules ()
 compileIndex = do
     route idRoute -- TODO: make a "copy to root" route?
     compile $ do
-      posts <- loadAll "posts/*" >>= fmap (take 5) . recentFirst
+      posts <- loadAll "posts/**" >>= fmap (take 5) . recentFirst
       let indexCtx =
             listField "posts" postCtx (return posts) `mappend`
             defaultContext
@@ -76,7 +76,7 @@ compileArchive :: Rules ()
 compileArchive = do
   route idRoute
   compile $ do
-    posts <- loadAll "posts/*" >>= recentFirst
+    posts <- loadAll "posts/**" >>= recentFirst
     let archiveCtx =
           listField "posts" postCtx (return posts) `mappend`
           constField "title" "Archive"             `mappend`
@@ -113,7 +113,7 @@ compileRss = do
           teaserField "teaser" "content"  `mappend`
           bodyField "description"
         applyTeaser = loadAndApplyTemplate "templates/teaser.html" feedCtx
-    posts <- loadAllSnapshots "posts/*" "content"
+    posts <- loadAllSnapshots "posts/**" "content"
       >>= mapM applyTeaser
       >>= fmap (take 7) . recentFirst
     renderRss tarpitFeed feedCtx posts
