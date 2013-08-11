@@ -1,7 +1,7 @@
 ---
 title: About
 author: Lucian Mogoșanu
-date: July 24, 2013
+date: August 11, 2013
 ---
 
 [Definition][1]: **tar pit**
@@ -33,8 +33,11 @@ all sorts of other things that I find interesting. You can find more about me
 on my [about page][4]. To find ways to get in touch with me, see the
 [contact][5] page.
 
+The Tar Pit is Free and Open Source, and thus can be forked [on Github][6].
+
 [1]: https://www.google.com/search?q=define:%20tar%20pit
 [2]: http://en.wikipedia.org/wiki/The_Ascent_of_Man
 [3]: http://en.wikipedia.org/wiki/Turing_tarpit
 [4]: http://lucian.mogosanu.ro/about
 [5]: /contact.html
+[6]: /posts/y00/006-the-tar-pit-on-github.html
