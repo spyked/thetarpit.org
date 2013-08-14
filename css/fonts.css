@@ -6,17 +6,17 @@
 }
 
 @font-face {
-  font-family: 'Underdog';
+  font-family: 'Averia Libre';
   font-style: normal;
   font-weight: 400;
-  src: local('Underdog'), local('Underdog-Regular'), url(/css/fonts/Underdog.ttf) format('truetype');
+  src: local('Averia Libre Regular'), local('AveriaLibre-Regular'), url(/css/fonts/AveriaLibre.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Ubuntu Mono';
+  font-family: 'Share Tech Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(/css/fonts/UbuntuMono.ttf) format('truetype');
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(/css/fonts/ShareTechMono.woff) format('woff');
 }
 
 @font-face {

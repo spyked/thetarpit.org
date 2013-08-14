@@ -9,7 +9,7 @@ body {
 }
 
 h1, #header, .info {
-	font-family: 'Underdog', Helvetica;
+	font-family: 'Averia Libre', Helvetica;
 }
 
 h1 {
@@ -44,14 +44,14 @@ pre.sourceCode > code {
 	padding: 2px 9px 3px;
 	font-size: 18px;
 	border: 1px solid #bebab0;
-	font-family: 'Ubuntu Mono', Monospace;
+	font-family: 'Share Tech Mono', Monospace;
 }
 
 code {
 	font-size: 18px;
 	padding: 1px 3px 1px 3px;
 	border: 1px solid #bebab0;
-	font-family: 'Ubuntu Mono', Monospace;
+	font-family: 'Share Tech Mono', Monospace;
 }
 
 math {
