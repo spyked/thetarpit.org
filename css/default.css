@@ -116,9 +116,9 @@ a:hover img {
 }
 
 #header {
-	border-bottom: 1.5px dashed #aaa;
+	border-bottom: 1px dotted #aaa;
 	margin-bottom: 30px;
-	padding: 18px 0px 18px 0px;
+	padding: 17px 0px 10px 0px;
 }
 
 #logo a {
@@ -135,7 +135,8 @@ a:hover img {
 
 #navigation {
 	text-align: right;
-	margin-top: 10.5px;
+	margin-top: 11.2px;
+	padding-right: 6px;
 }
 
 #navigation a {
@@ -151,10 +152,10 @@ a:hover img {
 
 #footer {
 	text-align: right;
-	padding: 12px 0px 12px 0px;
+	padding: 7px 0px 8px 0px;
 	font-size: 14px;
 	margin-top: 30px;
 
-	border-top: dashed 1.5px #aaa;
+	border-top: dotted 1px #aaa;
 	color: #555;
 }
