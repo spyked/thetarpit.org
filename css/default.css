@@ -21,13 +21,17 @@ h2 {
 }
 
 a {
-	//color: #067359;
-	color: #08767F;
+	color: #5B756C;;
 	text-decoration: none;
+	border-bottom: 1px dotted;
 }
 
 a:hover {
-	text-decoration: underline;
+	background-color: #f2f4f9;
+}
+
+p, ul, ol {
+	line-height: 1.6;
 }
 
 pre {
@@ -63,10 +67,6 @@ math {
 	font-size: 14px;
 	font-style: italic;
 	margin-top: -15px;
-}
-
-.info a {
-	color: #5B756C;
 }
 
 .info sup {
@@ -113,6 +113,7 @@ img.thumb {
 
 a:hover img {
 	text-decoration: none;
+	border-bottom: none;
 }
 
 #header {
@@ -127,10 +128,13 @@ a:hover img {
 	font-size: 34px;
 	font-weight: bold;
 	text-decoration: none;
+	border-bottom: none;
 }
 
 #logo a:hover {
 	color: #5B756C;
+	border-bottom: none;
+	background-color: #fff;
 }
 
 #navigation {
@@ -144,10 +148,12 @@ a:hover img {
 	font-size: 22px;
 	margin-left: 12px;
 	text-decoration: none;
+	border-bottom: none;
 }
 
 #navigation a:hover {
 	color: #5B756C;
+	border-bottom: none;
 }
 
 #footer {
