@@ -20,6 +20,10 @@ h2 {
 	font-size: 21px;
 }
 
+h3 {
+	font-size: 17px;
+}
+
 a {
 	color: #5B756C;;
 	text-decoration: none;
@@ -60,6 +64,30 @@ code {
 
 math {
 	font-family: 'Asana Math', DejaVu Sans, Helvetica;
+}
+
+.postlist {
+	font-size: 90%;
+	margin-left: 170px;
+	margin-bottom: 20px;
+}
+
+h3.pldate {
+	font-size: 90%;
+	position: absolute;
+	width: 170px;
+	max-width: 170px;
+	margin-left: -170px;
+	margin-top: 4px;
+}
+
+p.pltitle {
+	position: relative;
+}
+
+p.plexcerpt {
+	font-size: 90%;
+	margin-top: -10px;
 }
 
 .info {
