@@ -1,6 +1,7 @@
 ---
 postid: 007
 title: The Tar Pit: changes
+excerpt: A few changes are made to The Tar Pit's inner plumbing.
 author: Lucian Mogoșanu
 date: August 10, 2013
 tags: asphalt

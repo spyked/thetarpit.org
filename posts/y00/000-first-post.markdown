@@ -1,6 +1,7 @@
 ---
 postid: 000
 title: First post
+excerpt: In which the journey through The Tar Pit begins.
 author: Lucian Mogoșanu
 date: July 22, 2013
 tags: asphalt
