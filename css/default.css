@@ -39,8 +39,9 @@ ul {
 	list-style-type: square;
 }
 
-pre.sourceCode > code {
+pre > code {
 	display: block;
+	overflow: auto;
 	padding: 2px 9px 3px;
 	font-size: 18px;
 	border: 1px solid #bebab0;
