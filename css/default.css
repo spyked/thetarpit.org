@@ -39,6 +39,22 @@ ul {
 	list-style-type: square;
 }
 
+blockquote {
+	color: #656565;
+	border: 1px solid #e5e5e5;
+	border-left: 6px solid #e5e5e5;
+	padding: 0px 20px 0px 20px;
+	margin: 20px;
+}
+
+blockquote p:before {
+	content: '«';
+}
+
+blockquote p:after {
+	content: '»';
+}
+
 pre > code {
 	display: block;
 	overflow: auto;
