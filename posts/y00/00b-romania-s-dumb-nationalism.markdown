@@ -74,13 +74,14 @@ always had other priorities. Sure, this country has been, is and most probably
 will be a source of great minds. I'm really not sure, I think it must be a
 fluke or something.
 
-Despite all this, and I feel need to repeat myself, I am proud to be Romanian.
-I was born and raised here, I lived a fairly good life so far, so, as a
-personal view, Romania is a pretty cool country, although sometimes it doesn't
-really seem much of a *country*. Also, I've met Romanians that are good, honest
-people and I'm sure I'll meet many more, which gives me the hope this nation
-(also known as "we") has the chance of reedeeming itself, and that is mostly by
-growing up and out of our stupidity and acknowledging our sorry past.
+Despite all this, and I feel the need to repeat myself, I am proud to be
+Romanian.  I was born and raised here, I've lived a fairly good life so far,
+so, as a personal view, Romania is a pretty cool country, although sometimes it
+doesn't really seem much of a *country*. Also, I've met Romanians that are
+good, honest people and I'm sure I'll meet many more, which gives me the hope
+this nation (also known as "we") has the chance of reedeeming itself, and that
+is mostly by growing up and out of our stupidity and acknowledging our sorry
+past.
 
 [^1]: Don't believe me, read for yourself and prove me that my interpretation
 was wrong.
