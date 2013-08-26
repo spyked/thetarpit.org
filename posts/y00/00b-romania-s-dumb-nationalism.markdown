@@ -1,6 +1,7 @@
 ---
 postid: 00b
 title: Romania's dumb nationalism
+excerpt: Critique on today's Romanian nationalism.
 author: Lucian Mogoșanu
 date: August 24, 2013
 tags: asphalt

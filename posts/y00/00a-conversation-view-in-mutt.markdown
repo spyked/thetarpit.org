@@ -1,6 +1,7 @@
 ---
 postid: 00a
 title: Conversation view in Mutt
+excerpt: Making some elements of Mutt's user interface look more like Gmail.
 author: Lucian Mogoșanu
 date: August 18, 2013
 tags: tech
