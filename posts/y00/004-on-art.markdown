@@ -1,6 +1,7 @@
 ---
 postid: 004
 title: On art
+excerpt: Lucian shares his views regarding art.
 author: Lucian Mogoșanu
 date: August 1, 2013
 tags: cogitatio

@@ -1,6 +1,7 @@
 ---
 postid: 006
 title: The Tar Pit on Github
+excerpt: The Tar Pit goes Open Source.
 author: Lucian Mogoșanu
 date: August 7, 2013
 tags: announcements

@@ -70,12 +70,12 @@ favourite adventure, but it's original enough that I find it hard to compare
 with others, older or newer, and I feel that I must give it its own separate
 place in my book.
 
-<a href="/images/2013/08/gk-003.png"><img class="thumb"
+<span><a href="/images/2013/08/gk-003.png"><img class="thumb"
 src="/images/2013/08/gk-003-thumb.png" title="The Voodoo museum."/>
-</a>
-<a href="/images/2013/08/gk-013.png"><img class="thumb"
+</a></span>
+<span><a href="/images/2013/08/gk-013.png"><img class="thumb"
 src="/images/2013/08/gk-013-thumb.png" title="Beautiful winter landscape."/>
-</a>
+</a></span>
 
 [^1]: Arguably the only games from the Broken Sword series.
 [^2]: The Broken Sword games are one example.

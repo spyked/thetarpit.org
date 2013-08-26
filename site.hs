@@ -13,7 +13,7 @@ main = hakyllWith tarpitConfiguration $ do
   tags <- buildTags "posts/**" $ fromCapture "tags/*.html"
 
   -- content
-  match "index.html" compileIndex
+  match "index.html" $ compileIndex tags
   match "css/*" compileCss
   match "posts/**" $ compilePosts tags
   match "images/**" $ compileImages
@@ -31,13 +31,14 @@ main = hakyllWith tarpitConfiguration $ do
   match "templates/*" $ compile templateCompiler
 
 -- compilers go here
-compileIndex :: Rules ()
-compileIndex = do
+compileIndex :: Tags -> Rules ()
+compileIndex tags = do
     route idRoute -- TODO: make a "copy to root" route?
     compile $ do
       posts <- loadAll "posts/**" >>= fmap (take 5) . recentFirst
       let indexCtx =
-            listField "posts" postCtx (return posts) `mappend`
+            listField "posts" postCtx (return posts)    `mappend`
+            field "taglist" (const $ renderTagList tags) `mappend`
             defaultContext
 
       getResourceBody

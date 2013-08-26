@@ -20,14 +20,22 @@ h2 {
 	font-size: 21px;
 }
 
+h3 {
+	font-size: 17px;
+}
+
 a {
-	//color: #067359;
-	color: #08767F;
+	color: #5B756C;;
 	text-decoration: none;
+	border-bottom: 1px dotted;
 }
 
 a:hover {
-	text-decoration: underline;
+	background-color: #f2f4f9;
+}
+
+p, ul, ol {
+	line-height: 1.6;
 }
 
 pre {
@@ -75,15 +83,35 @@ math {
 	font-family: 'Asana Math', DejaVu Sans, Helvetica;
 }
 
+.postlist {
+	font-size: 90%;
+	margin-left: 170px;
+	margin-bottom: 20px;
+}
+
+h3.pldate {
+	font-size: 90%;
+	position: absolute;
+	width: 170px;
+	max-width: 170px;
+	margin-left: -170px;
+	margin-top: 5px;
+}
+
+p.pltitle {
+	position: relative;
+}
+
+p.plexcerpt {
+	font-size: 90%;
+	margin-top: -10px;
+}
+
 .info {
 	color: #889;
 	font-size: 14px;
 	font-style: italic;
 	margin-top: -15px;
-}
-
-.info a {
-	color: #5B756C;
 }
 
 .info sup {
@@ -128,8 +156,8 @@ img.thumb {
 	border-color: #e0e0e0;
 }
 
-a:hover img {
-	text-decoration: none;
+span > a {
+	border-bottom: none;
 }
 
 #header {
@@ -144,10 +172,13 @@ a:hover img {
 	font-size: 34px;
 	font-weight: bold;
 	text-decoration: none;
+	border-bottom: none;
 }
 
 #logo a:hover {
 	color: #5B756C;
+	border-bottom: none;
+	background-color: #fff;
 }
 
 #navigation {
@@ -161,10 +192,12 @@ a:hover img {
 	font-size: 22px;
 	margin-left: 12px;
 	text-decoration: none;
+	border-bottom: none;
 }
 
 #navigation a:hover {
 	color: #5B756C;
+	border-bottom: none;
 }
 
 #footer {
