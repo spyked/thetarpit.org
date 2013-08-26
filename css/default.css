@@ -139,8 +139,7 @@ img.thumb {
 	border-color: #e0e0e0;
 }
 
-a:hover img {
-	text-decoration: none;
+span > a {
 	border-bottom: none;
 }
 
