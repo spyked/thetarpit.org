@@ -70,6 +70,7 @@ pre > code {
 	font-size: 18px;
 	border: 1px solid #bebab0;
 	font-family: 'Share Tech Mono', Monospace;
+	white-space: pre;
 }
 
 code {
@@ -77,6 +78,7 @@ code {
 	padding: 1px 3px 1px 3px;
 	border: 1px solid #bebab0;
 	font-family: 'Share Tech Mono', Monospace;
+	white-space: nowrap;
 }
 
 math {
