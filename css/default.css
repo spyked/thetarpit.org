@@ -163,9 +163,9 @@ span > a {
 }
 
 #header {
-	border-bottom: 1px dotted #aaa;
+	border-bottom: 2px solid #c2cbce;
 	margin-bottom: 30px;
-	padding: 17px 0px 14px 0px;
+	padding: 17px 0px 12px 0px;
 }
 
 #logo a {
@@ -208,6 +208,6 @@ span > a {
 	font-size: 14px;
 	margin-top: 30px;
 
-	border-top: dotted 1px #aaa;
+	border-top: 2px solid #c2cbce;
 	color: #555;
 }
