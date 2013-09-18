@@ -10,7 +10,7 @@ tags: cogitatio
 The first thing I need to point out, and indeed I do, like a fish needs water,
 is that art is purely a personal thing. There is no single definition of art,
 more like billions of them, and people believing otherwise are nothing but
-close-minded fascists. It's not only that artistic values vary from one culture
+close[dt]-minded fascists. It's not only that artistic values vary from one culture
 another, but between two given individuals, even if they suckled from the same
 breast.
 
