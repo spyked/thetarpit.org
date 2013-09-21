@@ -1,11 +1,11 @@
+<ul class="postlist">
 $for(posts)$
-    <div class="postlist">
-        <h3 class="pldate">$date$</h3>
-		<p class="pltitle"><a href="$url$">$title$</a></p>
+		<li class="pltitle"><a href="$url$">$title$</a>
 		$if(excerpt)$
 		<p class="plexcerpt">
 		$excerpt$
 		</p>
 		$endif$
-    </div>
+		</li>
 $endfor$
+</ul>
