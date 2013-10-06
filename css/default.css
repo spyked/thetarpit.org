@@ -163,7 +163,7 @@ span > a {
 }
 
 #header {
-	border-bottom: 2px solid #c2cbce;
+	//border-bottom: 2px solid #c2cbce;
 	margin-bottom: 30px;
 	padding: 17px 0px 12px 0px;
 }
