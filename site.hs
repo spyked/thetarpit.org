@@ -144,7 +144,7 @@ tarpitReaderOptions = defaultHakyllReaderOptions
 
 tarpitWriterOptions :: WriterOptions
 tarpitWriterOptions = defaultHakyllWriterOptions
-  { writerHTMLMathMethod = MathML Nothing }
+  { writerHTMLMathMethod = MathJax "" }
 
 -- tarpit compiler
 tarpitCompiler :: Compiler (Item String)
