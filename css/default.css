@@ -159,9 +159,12 @@ span > a {
 }
 
 #header {
-	font-size: 23px;
-	padding: 0px 0px 7px 0px;
-	border-bottom: 2px solid #e2ebee;
+	text-align: center;
+	font-size: 40px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: -10px;
+	margin-top: 14px;
+	/*border-bottom: 2px solid #e2ebee;*/
 }
 
 #header li {
@@ -171,10 +174,6 @@ span > a {
 #header li a {
 	color: #333;
 	border-bottom: none;
-}
-
-#header li:after {
-	content: " --";
 }
 
 #logo a {
@@ -193,9 +192,10 @@ span > a {
 }
 
 #navigation {
-	text-align: right;
+	text-align: center;
 	margin-top: 11.2px;
 	padding-right: 6px;
+	padding: 0px 0px 30px 0px;
 }
 
 #navigation a {
