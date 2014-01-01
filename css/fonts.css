@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Cardo';
+  font-family: 'Average Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Cardo'), local('Cardo-Regular'), url(/css/fonts/Cardo.woff) format('woff');
+  src: local('Average Sans'), local('AverageSans-Regular'), url(/css/fonts/AverageSans.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Averia Libre';
+  font-family: 'Alegreya';
   font-style: normal;
   font-weight: 400;
-  src: local('Averia Libre Regular'), local('AveriaLibre-Regular'), url(/css/fonts/AveriaLibre.woff) format('woff');
+  src: local('Alegreya'), local('Alegreya-Regular'), url(/css/fonts/Alegreya.woff) format('woff');
 }
 
 @font-face {

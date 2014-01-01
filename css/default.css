@@ -1,27 +1,27 @@
 body {
 	margin: 0px auto 0px auto;
 	width: 714px;
-	font-size: 18px;
+	font-size: 19px;
 	text-align: justify;
 
 	color: #35353a;
-	font-family: 'Cardo', Helvetica;
+	font-family: 'Average Sans', sans-serif;
 }
 
 h1, #header, .info {
-	font-family: 'Averia Libre', Helvetica;
+	font-family: 'Alegreya', serif;
 }
 
 h1 {
-	font-size: 26px;
+	font-size: 35px;
 }
 
 h2 {
-	font-size: 21px;
+	font-size: 26px;
 }
 
 h3 {
-	font-size: 17px;
+	font-size: 18px;
 }
 
 a {
@@ -35,7 +35,7 @@ a:hover {
 }
 
 p, ul, ol {
-	line-height: 1.6;
+	line-height: 1.68;
 }
 
 pre {
@@ -87,10 +87,9 @@ math {
 
 .postlist {
 	font-size: 90%;
-	margin-left: 170px;
-	margin-bottom: 20px;
 }
 
+/*
 h3.pldate {
 	font-size: 90%;
 	position: absolute;
@@ -99,21 +98,26 @@ h3.pldate {
 	margin-left: -170px;
 	margin-top: 5px;
 }
+*/
 
-p.pltitle {
-	position: relative;
+.plitem {
+	margin: 10px 0px 10px 0px;
 }
 
-p.plexcerpt {
+.plitem a {
+	font-weight: bold;
+}
+
+.plexcerpt {
 	font-size: 90%;
-	margin-top: -10px;
+	/*margin-top: -3px;*/
 }
 
 .info {
 	color: #889;
-	font-size: 14px;
-	font-style: italic;
-	margin-top: -15px;
+	font-size: 15px;
+	/*font-style: italic;*/
+	margin-top: -25px;
 }
 
 .info sup {
@@ -140,14 +144,14 @@ span.imgleft {
 	display: inline-block;
 	float: left;
 	margin-right: 10px;
-	margin-top: 5px;
+	margin-top: 9px;
 }
 
 span.imgright {
 	display: inline-block;
 	float: right;
 	margin-left: 10px;
-	margin-top: 5px;
+	margin-top: 11px;
 }
 
 img.thumb {
@@ -163,35 +167,33 @@ span > a {
 }
 
 #header {
-	//border-bottom: 2px solid #c2cbce;
-	margin-bottom: 30px;
-	padding: 17px 0px 12px 0px;
+	text-align: center;
+	font-size: 45px;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: -10px;
+	margin-top: 14px;
+	/*border-bottom: 2px solid #e2ebee;*/
 }
 
-#logo a {
+#header li {
+	display: inline-block;
+}
+
+#header li a {
 	color: #333;
-	float: left;
-	font-size: 34px;
-	font-weight: bold;
-	text-decoration: none;
 	border-bottom: none;
-}
-
-#logo a:hover {
-	color: #5B756C;
-	border-bottom: none;
-	background-color: #fff;
 }
 
 #navigation {
-	text-align: right;
+	text-align: center;
 	margin-top: 11.2px;
 	padding-right: 6px;
+	padding: 0px 0px 30px 0px;
 }
 
 #navigation a {
 	color: #C2CBCE;
-	font-size: 22px;
+	font-size: 20px;
 	margin-left: 12px;
 	text-decoration: none;
 	border-bottom: none;
@@ -208,6 +210,6 @@ span > a {
 	font-size: 14px;
 	margin-top: 30px;
 
-	border-top: 2px solid #c2cbce;
+	border-top: 2px solid #e2ebee;
 	color: #555;
 }
