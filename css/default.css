@@ -1,15 +1,15 @@
 body {
 	margin: 0px auto 0px auto;
 	width: 714px;
-	font-size: 18px;
+	font-size: 19px;
 	text-align: justify;
 
 	color: #35353a;
-	font-family: 'Cardo', Helvetica;
+	font-family: 'Average Sans', sans-serif;
 }
 
 h1, #header, .info {
-	font-family: 'Averia Libre', Helvetica;
+	font-family: 'Alegreya', serif;
 }
 
 h1 {
@@ -17,11 +17,11 @@ h1 {
 }
 
 h2 {
-	font-size: 27px;
+	font-size: 26px;
 }
 
 h3 {
-	font-size: 17px;
+	font-size: 18px;
 }
 
 a {
@@ -115,8 +115,8 @@ h3.pldate {
 
 .info {
 	color: #889;
-	font-size: 14px;
-	font-style: italic;
+	font-size: 15px;
+	/*font-style: italic;*/
 	margin-top: -25px;
 }
 
