@@ -13,11 +13,11 @@ h1, #header, .info {
 }
 
 h1 {
-	font-size: 26px;
+	font-size: 35px;
 }
 
 h2 {
-	font-size: 21px;
+	font-size: 27px;
 }
 
 h3 {
@@ -86,7 +86,7 @@ math {
 }
 
 .postlist {
-	font-size: 90%;
+	/*font-size: 90%;*/
 }
 
 /*
@@ -100,16 +100,24 @@ h3.pldate {
 }
 */
 
-p.plexcerpt {
+.plitem {
+	margin: 10px 0px 10px 0px;
+}
+
+.plitem a {
+	font-weight: bold;
+}
+
+.plexcerpt {
 	font-size: 90%;
-	margin-top: -3px;
+	/*margin-top: -3px;*/
 }
 
 .info {
 	color: #889;
 	font-size: 14px;
 	font-style: italic;
-	margin-top: -15px;
+	margin-top: -25px;
 }
 
 .info sup {
