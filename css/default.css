@@ -38,6 +38,15 @@ p, ul, ol {
 	line-height: 1.68;
 }
 
+/* This is nice, but I'm not decided
+ * whether I really want it or not. */
+/*
+.footnotes ol {
+	list-style-position: outside;
+	padding: 0px;
+}
+*/
+
 pre {
 	width: 99%;
 	margin-left: auto; margin-right: auto;
@@ -135,9 +144,9 @@ h3.pldate {
 }
 
 .footnotes hr {
-	width: 70%;
+	width: 99%;
 	border: 0;
-	border-bottom: 1px dotted #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 span.imgleft {
@@ -210,6 +219,6 @@ span > a {
 	font-size: 14px;
 	margin-top: 30px;
 
-	border-top: 2px solid #e2ebee;
+	border-top: 3px solid #e2ebee;
 	color: #555;
 }
