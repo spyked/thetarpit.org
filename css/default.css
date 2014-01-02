@@ -196,7 +196,7 @@ span > a {
 	text-align: center;
 	font-size: 45px;
 	padding: 0px 0px 0px 0px;
-	margin-bottom: -10px;
+	margin-bottom: -12px;
 	margin-top: 14px;
 	/*border-bottom: 2px solid #e2ebee;*/
 }
@@ -213,14 +213,14 @@ span > a {
 #navigation {
 	text-align: center;
 	margin-top: 11.2px;
-	padding-right: 6px;
+	margin-left: -16px;
 	padding: 0px 0px 30px 0px;
 }
 
 #navigation a {
 	color: #C2CBCE;
 	font-size: 20px;
-	margin-left: 12px;
+	margin-left: 16px;
 	text-decoration: none;
 	border-bottom: none;
 }
