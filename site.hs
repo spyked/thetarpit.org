@@ -19,7 +19,7 @@ main = hakyllWith tarpitConfiguration $ do
   match "images/**" $ compileImages
   match "css/fonts/*" $ compileFonts
   match (fromList pages) compilePages
-  create ["archive.html"] compileArchive
+  create ["archive.html"] $ compileArchive tags
 
   -- tags rules
   tagsRules tags $ compileTags tags
@@ -38,7 +38,6 @@ compileIndex tags = do
       posts <- loadAll "posts/**" >>= fmap (take 5) . recentFirst
       let indexCtx =
             listField "posts" postCtx (return posts)    `mappend`
-            field "taglist" (const $ renderTagList tags) `mappend`
             defaultContext
 
       getResourceBody
@@ -77,14 +76,15 @@ compilePages = do
     -- relative URLs break 404 pages, so don't do it here
     -- >>= relativizeUrls
 
-compileArchive :: Rules ()
-compileArchive = do
+compileArchive :: Tags -> Rules ()
+compileArchive tags = do
   route idRoute
   compile $ do
     posts <- loadAll "posts/**" >>= recentFirst
     let archiveCtx =
-          listField "posts" postCtx (return posts) `mappend`
-          constField "title" "Archive"             `mappend`
+          listField "posts" postCtx (return posts)      `mappend`
+          field "taglist" (const $ renderTagList tags)  `mappend`
+          constField "title" "Archive"                  `mappend`
           defaultContext
     makeItem ""
       >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
