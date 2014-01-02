@@ -18,6 +18,7 @@ h1 {
 
 h2 {
 	font-size: 26px;
+	margin-bottom: -4px;
 }
 
 h3 {
@@ -108,6 +109,22 @@ h3.pldate {
 	margin-top: 5px;
 }
 */
+
+.inline-list {
+	list-style: none;
+	overflow: hidden;
+	margin-right: 0;
+	padding: 0;
+}
+
+.inline-list > li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.inline-list > li > *{
+	display: inline-block;
+}
 
 .plitem {
 	margin: 10px 0px 10px 0px;
