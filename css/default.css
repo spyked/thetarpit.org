@@ -180,6 +180,11 @@ span.imgright {
 	margin-top: 11px;
 }
 
+div.imgcenter {
+	display: block;
+	text-align: center;
+}
+
 img.thumb {
 	padding: 5px 7px 5px 7px;
 	background-color: #f7f7f9;
