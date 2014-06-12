@@ -84,6 +84,8 @@ it's way too much to fit here. Besides, some of these things will pass, some
 will live on, while some will be remembered in the future; which brings me to
 the next part of my essay.
 
+**Next**: Bitcoin as infrastructure
+
 [^3]: Those which you call "programming languages" could as well be considered
 a morphologically and syntactically altered subset of mathematics.
 
