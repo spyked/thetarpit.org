@@ -10,7 +10,7 @@ tags: asphalt, tech
 A while ago Randall Munroe posted a comic called "Password Strength":
 
 <span><a href="http://imgs.xkcd.com/comics/password_strength.png"><img
-class="thumb" src="/images/2014/02/password_strength.png"
+class="thumb" src="/uploads/2014/02/password_strength.png"
 style="width:700px;height:auto;" /></a></span>
 
 This sparked a lot of debate on the Internet. Although the math seems right,

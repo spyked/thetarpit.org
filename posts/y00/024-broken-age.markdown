@@ -12,8 +12,8 @@ specifically the one where I describe the beauty of [Grim Fandango][1]. Unlike
 other posts in the [gaming][2] category, however, this one has no motto. We
 will see why in the following paragraphs.
 
-<span class="imgleft"><a href="/images/2014/06/broken-age-01.png"> <img
-class="thumb" src="/images/2014/06/broken-age-01-thumb.png" title="A beautiful
+<span class="imgleft"><a href="/uploads/2014/06/broken-age-01.png"> <img
+class="thumb" src="/uploads/2014/06/broken-age-01-thumb.png" title="A beautiful
 decor."/></a></span> So, once upon a time, there was this guy called Tim
 Schafer. While working as a producer for LucasArts, he made some of the
 greatest adventures ever created, of which I won't remind any right now, but
@@ -35,8 +35,8 @@ the shitloads of money invested by their backers. About two years later, that
 is, in our Lord's year 2014, they manage to release the first act of this game,
 which they now name Broken Age. And here we are.
 
-<span class="imgright"><a href="/images/2014/06/broken-age-02.png"> <img
-class="thumb" src="/images/2014/06/broken-age-02-thumb.png"
+<span class="imgright"><a href="/uploads/2014/06/broken-age-02.png"> <img
+class="thumb" src="/uploads/2014/06/broken-age-02-thumb.png"
 title="Vella."/></a></span>
 Broken Age tells the story of two people, or children, living in what appear to
 be two entirely different worlds. One of them, Vella, is part of some kind of
@@ -56,8 +56,8 @@ bland, the scenes make no sense -- and that's okay for a comedy, except,
 y'know, the humour is bland --, the characters are ephemere despite being
 played by such good actors, but wait, that's not all.
 
-<span class="imgleft"><a href="/images/2014/06/broken-age-03.png"> <img
-class="thumb" src="/images/2014/06/broken-age-03-thumb.png"
+<span class="imgleft"><a href="/uploads/2014/06/broken-age-03.png"> <img
+class="thumb" src="/uploads/2014/06/broken-age-03-thumb.png"
 title="Shay."/></a></span>
 All things considered, the game's atmosphere is not bad at all. The orchestral
 soundtrack is a lovely piece of art, while on the other hand, the graphics are

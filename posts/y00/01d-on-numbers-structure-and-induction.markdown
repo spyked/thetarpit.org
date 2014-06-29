@@ -78,7 +78,7 @@ diagram*. For simplicity, I will represent $a$'s and $b$'s as pairs and abuse
 notation a bit, by which I mean that we are applying the lifting function $l$
 on each element of the pair. The final result looks like this:
 
-<div class="imgcenter"><img class="thumb" src="/images/2014/03/diagram.png"
+<div class="imgcenter"><img class="thumb" src="/uploads/2014/03/diagram.png"
 /></div>
 
 The diagram commutes, which means that $l$ can be seen as a functor mapping

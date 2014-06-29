@@ -23,9 +23,9 @@ as a designer. I bet you've heard of him before. Well, I've been completely
 oblivious until recently, despite the fact that I'm quite a Star Trek guy and a
 science fiction fan in general.
 
-<span class="imgleft"><a href="/images/2013/12/ihnmaims-001.jpg">
+<span class="imgleft"><a href="/uploads/2013/12/ihnmaims-001.jpg">
 <img class="thumb"
-src="/images/2013/12/ihnmaims-001-thumb.jpg" title="Yellow."/></a></span>
+src="/uploads/2013/12/ihnmaims-001-thumb.jpg" title="Yellow."/></a></span>
 The game was launched about thirty years after the story, which, I argue,
 doesn't make the book look more outdated nor the game less interesting.
 Similarly to [Gabriel Knight][1], I had heard of IHNMAIMS a while ago but never
@@ -40,9 +40,9 @@ it, Adams did it; heck, Clarke created a similar supercomputer one year later.
 Only few writers placed their fictional computers in settings such desolate as
 the one devised by Ellison.
 
-<span class="imgright"><a href="/images/2013/12/ihnmaims-002.jpg">
+<span class="imgright"><a href="/uploads/2013/12/ihnmaims-002.jpg">
 <img class="thumb"
-src="/images/2013/12/ihnmaims-002-thumb.jpg"
+src="/uploads/2013/12/ihnmaims-002-thumb.jpg"
 title="Gorrister, a dead man breathing"/></a></span>
 The AM supercomputer, created by the Americans or the Russians or the Chinese,
 it doesn't really matter by whom, becomes sentient at some point in time, it
@@ -69,9 +69,9 @@ being that's unable to eat; Ellen is constantly thirsty and terrified by the
 colour yellow. The story doesn't give the player any hope that any of it could
 end well, although in truth there is more than one way to end the game.
 
-<span class="imgleft"><a href="/images/2013/12/ihnmaims-003.jpg">
+<span class="imgleft"><a href="/uploads/2013/12/ihnmaims-003.jpg">
 <img class="thumb"
-src="/images/2013/12/ihnmaims-003-thumb.jpg"
+src="/uploads/2013/12/ihnmaims-003-thumb.jpg"
 title="Not your typical cyberpunk landscape"/></a></span>
 The mechanics are similar to those of SCUMM games like Day of The Tentacle and
 are based on an engine called [SAGA][2], made by the same Dreamers Guild who
@@ -94,14 +94,14 @@ shocking at the time. The "shocking" elements however pale in comparison to
 most Hollywood "science fiction" crap we see nowadays, so I guess you'll have
 to stick with appreciating the author's pretty good artistry and nothing more.
 
-<span><a href="/images/2013/12/ihnmaims-004.jpg"><img class="thumb"
-src="/images/2013/12/ihnmaims-004-thumb.jpg"
+<span><a href="/uploads/2013/12/ihnmaims-004.jpg"><img class="thumb"
+src="/uploads/2013/12/ihnmaims-004-thumb.jpg"
 title="The guy with the really weird name"/></a></span>
-<span><a href="/images/2013/12/ihnmaims-005.jpg"><img class="thumb"
-src="/images/2013/12/ihnmaims-005-thumb.jpg"
+<span><a href="/uploads/2013/12/ihnmaims-005.jpg"><img class="thumb"
+src="/uploads/2013/12/ihnmaims-005-thumb.jpg"
 title="Standard ending, pretty much the same as the book."/></a></span>
-<span><a href="/images/2013/12/ihnmaims-006.jpg"><img class="thumb"
-src="/images/2013/12/ihnmaims-006-thumb.jpg"
+<span><a href="/uploads/2013/12/ihnmaims-006.jpg"><img class="thumb"
+src="/uploads/2013/12/ihnmaims-006-thumb.jpg"
 title=""/></a></span>
 
 [^1]: Read: Steam and Linux.

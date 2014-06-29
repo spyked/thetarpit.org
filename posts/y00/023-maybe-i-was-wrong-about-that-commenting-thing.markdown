@@ -100,7 +100,7 @@ the words of [Simon Peyton-Jones][3], I'm avoiding success at all costs.
 [1]: /posts/y00/002-technicalities.html
 [2]: https://sites.google.com/site/steveyegge2/you-should-write-blogs
 [3]: http://www.computerworld.com.au/article/261007/a-z_programming_languages_haskell/
-[4]: /images/email.png
+[4]: /uploads/email.png
 [5]: http://techcrunch.com/2014/04/03/the-filtered-feed-problem/
 [6]: http://eviltrout.com/2014/01/22/embedding-discourse.html
 [7]: http://blog.codinghorror.com/a-blog-without-comments-is-not-a-blog/

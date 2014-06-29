@@ -22,8 +22,8 @@ decided to ruin the point and click, in fact the entire adventure genre for
 everyone by creating a non-point and click adventure game. And that game was
 called *Grim Fandango*. And it was a glorious piece of art.
 
-<span class="imgleft"><a href="/images/2014/02/grim-fandango-001.png"> <img
-class="thumb" src="/images/2014/02/grim-fandango-001-thumb.png"
+<span class="imgleft"><a href="/uploads/2014/02/grim-fandango-001.png"> <img
+class="thumb" src="/uploads/2014/02/grim-fandango-001-thumb.png"
 title="The Grim Reaper himself."/></a></span>
 I've never been too fond of the idea of keyboard/controller-based adventure
 games with a fixed camera. Despite my previous experience with Escape From
@@ -40,8 +40,8 @@ called Manuel "Manny" Calavera who's living his life, well, his afterlife, in
 the dead people's world, trying to get through his mid-afterlife crisis like
 any guy who's been dead for too long now does.
 
-<span class="imgright"><a href="/images/2014/02/grim-fandango-003.png"> <img
-class="thumb" src="/images/2014/02/grim-fandango-003-thumb.png"
+<span class="imgright"><a href="/uploads/2014/02/grim-fandango-003.png"> <img
+class="thumb" src="/uploads/2014/02/grim-fandango-003-thumb.png"
 title="A cap'n and his lady... ship... ladyship."/></a></span>
 The game goes through four years of Manny's adventure, the same period it takes
 to get to the Ninth Undeworld[^2] by foot. People who have been "good" get a
@@ -59,8 +59,8 @@ and their dog, the game is populated with demons used for "menial" tasks such
 as driving or taking care of the server[^3], the most notable being Manny's
 sidekick Glottis.
 
-<span class="imgleft"><a href="/images/2014/02/grim-fandango-006.png"> <img
-class="thumb" src="/images/2014/02/grim-fandango-006-thumb.png"
+<span class="imgleft"><a href="/uploads/2014/02/grim-fandango-006.png"> <img
+class="thumb" src="/uploads/2014/02/grim-fandango-006-thumb.png"
 title="Beautiful artwork."/></a></span>
 The graphics are not bad at all, but the aspect where the GrimE engine really
 shines is the ability to present scenes and angles in a very movie-like
@@ -83,17 +83,17 @@ I'll end the post with a quote:
 
 * Membrillo
 
-<span><a href="/images/2014/02/grim-fandango-007.png"><img class="thumb"
-src="/images/2014/02/grim-fandango-007-thumb.png"
+<span><a href="/uploads/2014/02/grim-fandango-007.png"><img class="thumb"
+src="/uploads/2014/02/grim-fandango-007-thumb.png"
 title="The server guy."/></a></span>
-<span><a href="/images/2014/02/grim-fandango-005.png"><img class="thumb"
-src="/images/2014/02/grim-fandango-005-thumb.png"
+<span><a href="/uploads/2014/02/grim-fandango-005.png"><img class="thumb"
+src="/uploads/2014/02/grim-fandango-005-thumb.png"
 title="Happy couple."/></a></span>
-<span><a href="/images/2014/02/grim-fandango-002.png"><img class="thumb"
-src="/images/2014/02/grim-fandango-002-thumb.png"
+<span><a href="/uploads/2014/02/grim-fandango-002.png"><img class="thumb"
+src="/uploads/2014/02/grim-fandango-002-thumb.png"
 title="Gambling is fun, except when you've got a gambling problem."/></a></span>  
-<span><a href="/images/2014/02/grim-fandango-004.png"><img class="thumb"
-src="/images/2014/02/grim-fandango-004-thumb.png"
+<span><a href="/uploads/2014/02/grim-fandango-004.png"><img class="thumb"
+src="/uploads/2014/02/grim-fandango-004-thumb.png"
 title="&quot;I'm gonna let it shine&quot;""/></a></span>
 
 [^1]: Ok, maybe not as much him as the blazingly idiotic team behind him. It
