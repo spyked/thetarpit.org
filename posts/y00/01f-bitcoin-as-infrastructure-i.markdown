@@ -86,7 +86,7 @@ finding a reliable alphabet to encode electrical signals. Many of these
 encodings, including the standard Morse code, were binary. This had an impact
 not only in engineering, but also in the science of the 20th century.
 
-**Next**: The fractal nature of computing infrastructure
+**Next**: [The fractal nature of computing infrastructure][3]
 
 [^1]: Admittedly, sets are one of the cornerstones of mathematics; this
 discussion, like any other, can only remain precise in the framework of
@@ -107,3 +107,4 @@ monument itself stands as evidence to the battle's importance.
 
 [1]: /posts/y00/017-the-mechanics-of-socialism.html#fn1
 [2]: /posts/y00/00b-romania-s-dumb-nationalism.html
+[3]: /posts/y00/022-bitcoin-as-infrastructure-ii.html
