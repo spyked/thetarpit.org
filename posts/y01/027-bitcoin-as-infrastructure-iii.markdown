@@ -107,7 +107,7 @@ Bitcoin-as-infrastructure, I will provide some examples of interesting
 applications based on the infrastructure provided by Bitcoin before drawing a
 conclusion to my essay.
 
-**Next**: Examples and conclusion
+**Next**: [Examples and conclusion][5]
 
 [^7]: Rigorously speaking it is in fact established by the agents, based on the
 value of other resources. E.g. if the demand for apples is high but the supply
@@ -139,3 +139,4 @@ that kill their users' privacy for the sheer purpose of serving better ads.
 [2]: /posts/y00/022-bitcoin-as-infrastructure-ii.html
 [3]: /posts/y00/017-the-mechanics-of-socialism.html
 [4]: https://www.schneier.com/blog/archives/2012/12/feudal_sec.html
+[5]: /posts/y01/031-bitcoin-as-infrastructure-iv.html
