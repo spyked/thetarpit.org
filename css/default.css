@@ -170,14 +170,14 @@ span.imgleft {
 	display: inline-block;
 	float: left;
 	margin-right: 10px;
-	margin-top: 9px;
+	margin-top: 6px;
 }
 
 span.imgright {
 	display: inline-block;
 	float: right;
 	margin-left: 10px;
-	margin-top: 11px;
+	margin-top: 6px;
 }
 
 div.imgcenter {
