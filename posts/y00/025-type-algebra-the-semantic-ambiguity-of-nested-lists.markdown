@@ -1,6 +1,6 @@
 ---
-postid: 025
-title: Type algebra: the semantic ambiguity of nested lists
+postid: '025'
+title: 'Type algebra: the semantic ambiguity of nested lists'
 excerpt: A short incursion into limitations of algebraic types.
 date: July 12, 2014
 author: Lucian Mogoșanu

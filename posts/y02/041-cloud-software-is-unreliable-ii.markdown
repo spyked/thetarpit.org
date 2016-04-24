@@ -1,5 +1,5 @@
 ---
-postid: 041
+postid: '041'
 title: Cloud software is unreliable [ii]
 excerpt: Or, the cloud is unreliable.
 date: January 16, 2016

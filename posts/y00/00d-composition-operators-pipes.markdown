@@ -1,6 +1,6 @@
 ---
-postid: 00d
-title: Composition operators: pipes
+postid: '00d'
+title: 'Composition operators: pipes'
 excerpt: In which we describe Unix pipes using application and composition.
 author: Lucian Mogoșanu
 date: August 31, 2013

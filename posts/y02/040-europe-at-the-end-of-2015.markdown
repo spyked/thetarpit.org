@@ -1,6 +1,6 @@
 ---
-postid: 040
-title: Europe at the end of 2015: a chronicle
+postid: '040'
+title: 'Europe at the end of 2015: a chronicle'
 excerpt: A second piece of synthetic journalism.
 date: December 19, 2015
 author: Lucian Mogoșanu

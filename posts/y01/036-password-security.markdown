@@ -1,5 +1,5 @@
 ---
-postid: 036
+postid: '036'
 title: Password security, a game theoretical approach
 date: February 28, 2015
 author: Lucian Mogoșanu

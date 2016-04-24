@@ -1,5 +1,5 @@
 ---
-postid: 01f
+postid: '01f'
 title: Bitcoin as infrastructure [i]
 excerpt: In which I argue that Bitcoin is more fundamental than mere currency.
 date: April 27, 2014

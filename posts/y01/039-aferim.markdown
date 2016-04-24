@@ -1,5 +1,5 @@
 ---
-postid: 039
+postid: '039'
 title: Aferim!
 date: June 20, 2015
 author: Lucian Mogoșanu

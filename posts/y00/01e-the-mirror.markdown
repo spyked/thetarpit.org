@@ -1,5 +1,5 @@
 ---
-postid: 01e
+postid: '01e'
 title: I die when I look in the mirror.
 date: April 12, 2014
 author: Lucian Mogoșanu

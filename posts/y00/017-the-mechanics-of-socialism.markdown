@@ -1,5 +1,5 @@
 ---
-postid: 017
+postid: '017'
 title: The mechanics of socialism
 excerpt: Socialism analyzed from the point of view of an engineer.
 author: Lucian Mogoșanu

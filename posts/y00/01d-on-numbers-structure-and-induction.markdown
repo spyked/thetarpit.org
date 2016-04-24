@@ -1,5 +1,5 @@
 ---
-postid: 01d
+postid: '01d'
 title: On numbers, structure and induction
 excerpt: Peano arithmetic for the dumb
 date: March 29, 2014

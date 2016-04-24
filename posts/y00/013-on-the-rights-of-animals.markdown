@@ -1,5 +1,5 @@
 ---
-postid: 013
+postid: '013'
 title: On the rights of animals
 author: Lucian Mogoșanu
 date: December 1, 2013

@@ -1,8 +1,8 @@
 ---
-postid: 011
+postid: '011'
 title: J.J. Abrams tried to pull a Wrath of Khan and failed
 author: Lucian Mogoșanu
-excerpt: An analysis of Star Trek: Into Darkness.
+excerpt: 'An analysis of Star Trek: Into Darkness.'
 date: October 6, 2013
 tags: video
 ---

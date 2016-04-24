@@ -1,5 +1,5 @@
 ---
-postid: 044
+postid: '044'
 title: When the law does more harm than good, or an exercise in independent thought
 date: March 12, 2016
 author: Lucian Mogoșanu

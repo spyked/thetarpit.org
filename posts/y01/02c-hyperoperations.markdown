@@ -1,5 +1,5 @@
 ---
-postid: 02c
+postid: '02c'
 title: The mathematics and philosophy of hyperoperations
 excerpt: Another dive into the world of mathematical foundations
 date: October 5, 2014

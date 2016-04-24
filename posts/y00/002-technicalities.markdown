@@ -1,6 +1,6 @@
 ---
-postid: 002
-title: The Tar Pit: technicalities
+postid: '002'
+title: 'The Tar Pit: technicalities'
 excerpt: A dive into technical aspects of The Tar Pit.
 author: Lucian Mogoșanu
 date: July 27, 2013

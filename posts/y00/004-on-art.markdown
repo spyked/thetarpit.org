@@ -1,5 +1,5 @@
 ---
-postid: 004
+postid: '004'
 title: On art
 excerpt: Lucian shares his views regarding art.
 author: Lucian Mogoșanu

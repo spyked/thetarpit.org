@@ -1,5 +1,5 @@
 ---
-postid: 028
+postid: '028'
 title: Building business, or why (some) Gypsies are smarter than (most) Romanians
 excerpt: A case study on self-regulating systems.
 date: August 16, 2014

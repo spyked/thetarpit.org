@@ -1,5 +1,5 @@
 ---
-postid: 02b
+postid: '02b'
 title: How and why systemd has won
 date: September 27, 2014
 author: Lucian Mogoșanu

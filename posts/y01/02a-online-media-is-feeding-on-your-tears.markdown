@@ -1,5 +1,5 @@
 ---
-postid: 02a
+postid: '02a'
 title: Online media is feeding on your tears
 excerpt: In which I publicly shame the rubbish that is new media.
 date: September 20, 2014

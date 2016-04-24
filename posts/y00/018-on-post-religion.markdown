@@ -1,5 +1,5 @@
 ---
-postid: 018
+postid: '018'
 title: On post-religion
 excerpt: In which I coin a new term for popular culture.
 author: Lucian Mogoșanu

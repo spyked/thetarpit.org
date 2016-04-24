@@ -1,5 +1,5 @@
 ---
-postid: 034
+postid: '034'
 title: The inevitable transition back into religiousness
 date: February 7, 2015
 author: Lucian Mogoșanu

@@ -1,5 +1,5 @@
 ---
-postid: 02e
+postid: '02e'
 title: On the inherent harmfulness of political correctness
 date: November 16, 2014
 author: Lucian Mogoșanu

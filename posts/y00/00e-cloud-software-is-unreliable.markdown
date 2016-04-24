@@ -1,5 +1,5 @@
 ---
-postid: 00e
+postid: '00e'
 title: Cloud software is unreliable
 author: Lucian Mogoșanu
 excerpt: A weak argument.

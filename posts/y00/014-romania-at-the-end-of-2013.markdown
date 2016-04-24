@@ -1,6 +1,6 @@
 ---
-postid: 014
-title: Romania at the end of 2013: an exercise in geopolitics
+postid: '014'
+title: 'Romania at the end of 2013: an exercise in geopolitics'
 author: Lucian Mogoșanu
 excerpt: A piece of synthetic journalism.
 date: December 8, 2013

@@ -1,5 +1,5 @@
 ---
-postid: 03d
+postid: '03d'
 title: Never Mind the Balkans, Here's Romania
 date: August 29, 2015
 author: Lucian Mogoșanu

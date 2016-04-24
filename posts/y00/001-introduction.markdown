@@ -1,6 +1,6 @@
 ---
-postid: 001
-title: The Tar Pit: an introduction
+postid: '001'
+title: 'The Tar Pit: an introduction'
 excerpt: Which introduces the reasoning behind the decision to create The Tar Pit.
 author: Lucian Mogoșanu
 date: July 25, 2013

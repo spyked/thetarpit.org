@@ -1,5 +1,5 @@
 ---
-postid: 012
+postid: '012'
 title: On context awareness in computing
 excerpt: An analogy between natural language and computing.
 author: Lucian Mogoșanu

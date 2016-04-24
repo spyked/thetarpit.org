@@ -1,5 +1,5 @@
 ---
-postid: 024
+postid: '024'
 title: Broken Age
 date: June 21, 2014
 author: Lucian Mogoșanu

@@ -1,6 +1,6 @@
 ---
-postid: 005
-title: Gabriel Knight: Sins of the Fathers
+postid: '005'
+title: 'Gabriel Knight: Sins of the Fathers'
 author: Lucian Mogoșanu
 date: August 4, 2013
 tags: gaming
