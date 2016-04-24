@@ -7,8 +7,9 @@ import Hakyll.Core.Configuration
 -- wrapping it up
 main :: IO ()
 main = hakyllWith tarpitConfiguration $ do
-  let pages = ["about.markdown", "contact.markdown",
-               "404.markdown", "403.markdown"]
+  let pages = ["about.markdown", "about-2.markdown",
+               "contact.markdown", "404.markdown",
+               "403.markdown"]
   -- tags
   tags <- buildTags "posts/**" $ fromCapture "tags/*.html"
 
