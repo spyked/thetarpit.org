@@ -34,4 +34,4 @@ publication. After all, tar pits might not even be enumerable.
 (Note: the previous [about page][about] was left online for historical
 reasons.)
 
-[about]: ./about.html
+[about]: /about.html
