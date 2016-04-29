@@ -1,7 +1,7 @@
 ---
 title: On tar pits (or, the second about)
 author: Lucian Mogoșanu
-date: April 24, 2016
+date: April 29, 2016
 ---
 
 Humans' understanding of the universe is terrifyingly limited. Yet from
@@ -16,8 +16,8 @@ or just the fat lady standing in front of you at the queue in the post
 office.
 
 In the same category lies a tar pit uniquely attributable to man, that
-creature more widely (although more and more narrowly) known as ζῷον
-πολιτικόν. It, like the Boltzmann constant itself, is also difficult to
+creature more widely (although more and more narrowly) known as Zōon
+Politikon. It, like the Boltzmann constant itself, is also difficult to
 grasp, but you might know it as that feeling which (naturally!) keeps
 you from aspiring to become *more* human. It is laziness; it is
 stagnation; it is tiredness, and it is ultimately death.
@@ -34,4 +34,4 @@ publication. After all, tar pits might not even be enumerable.
 (Note: the previous [about page][about] was left online for historical
 reasons.)
 
-[about]: about.html
+[about]: ./about.html
