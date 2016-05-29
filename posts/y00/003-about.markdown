@@ -4,7 +4,7 @@ title: 'The Tar Pit: about'
 excerpt: The Tar Pit's description becomes available.
 author: Lucian Mogoșanu
 date: July 29, 2013
-tags: announcements
+tags: meta
 ---
 
 <p style="text-align: right">

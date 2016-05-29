@@ -4,7 +4,7 @@ title: The Tar Pit on Github
 excerpt: The Tar Pit goes Open Source.
 author: Lucian Mogoșanu
 date: August 7, 2013
-tags: announcements
+tags: meta
 ---
 <p style="text-align: right">
 *[Hello, Mirror, so glad to see you my friend][1]  

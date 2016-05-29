@@ -3,7 +3,7 @@ postid: '047'
 title: 'The Tar Pit: about [ii]'
 date: April 29, 2016
 author: Lucian Mogoșanu
-tags: announcements
+tags: meta
 ---
 
 <p style="text-align: right">
