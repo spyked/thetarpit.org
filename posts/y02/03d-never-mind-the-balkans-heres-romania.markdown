@@ -3,7 +3,7 @@ postid: '03d'
 title: Never Mind the Balkans, Here's Romania
 date: August 29, 2015
 author: Lucian Mogoșanu
-tags: books
+tags: reading
 ---
 
 On the subject of [the way in which Romanians are][aferim] -- as a matter of

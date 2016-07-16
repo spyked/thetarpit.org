@@ -4,7 +4,7 @@ title: Some of the things I've read
 excerpt: Previously dubbed "On reading".
 author: Lucian Mogoșanu
 date: March 15, 2014
-tags: books
+tags: reading
 ---
 
 *Inspired partly by [dAImon's laziness][1] (in Romanian).*

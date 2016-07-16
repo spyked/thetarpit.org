@@ -3,7 +3,7 @@ postid: '015'
 title: I have no mouth, and I must scream
 author: Lucian Mogoșanu
 date: December 22, 2013
-tags: gaming, books
+tags: gaming, reading
 ---
 
 <p style="text-align: right"><em>I am a great soft jelly thing. Smoothly
