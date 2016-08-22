@@ -4,7 +4,7 @@ title: 'The Tar Pit: changes [iii]'
 excerpt: Journal entry for The Tar Pit version 0.3.
 author: Lucian Mogoșanu
 date: January 2, 2014
-tags: asphalt
+tags: meta
 ---
 
 I am not a graphical designer. If I were one, I would be mediocre at best. Now,
