@@ -17,4 +17,4 @@ My mind is the maze [that only I can face][1]*</p>
 The Tar Pit has a new [about page][2].
 
 [1]: https://www.youtube.com/watch?v=nn0WkFjwHRk
-[2]: /about-2.html
+[2]: /about.html
