@@ -1,43 +1,32 @@
 ---
-title: About
+title: On tar pits (or, the second about)
 author: Lucian Mogoșanu
-date: August 11, 2013
+date: October 29, 2016
 ---
 
-[Definition][1]: **tar pit**
+Humans' understanding of the universe is terrifyingly limited. Yet from
+thermodynamics we know (or we think we know) that by the arrow of
+entropy nature tends to fall into a general state of disorder. This is
+the zeroth tar pit.
 
-1. A hollow in which natural tar accumulates by seepage
-2. A complicated or difficult situation or problem (e.g. "the tar pit of
-municipal poverty")
+The first, second, third and so on up to the nth are most of the things,
+beasts, people and phenomena surrounding us, from the actual sticky
+thing to more metaphorical notions such as Kafka's perfect bureaucracy,
+or just the fat lady standing in front of you at the queue in the post
+office.
 
-So, why The Tar Pit? Let's explain this in a quasi-formal language.
+In the same category lies a tar pit uniquely attributable to man, that
+creature more widely (although more and more narrowly) known as Zōon
+Politikon. It, like the Boltzmann constant itself, is also difficult to
+grasp, but you might know it as that feeling which (naturally!) keeps
+you from aspiring to become *more* human. It is laziness; it is
+stagnation; it is tiredness, and it is ultimately death.
 
-Let $P$ be a set, representing all the problems in our universe. Let $K$, a
-subset of $P$, be the set of all known problems. Of the problems $p \in K$, a
-small part are currently subject to research and of those some will be solved
-sooner or later.
+This blog, my, Lucian Mogoșanu's blog, describes its author's struggle
+through his own personal tar pit, as well as accounts and critiques of
+some of his times'. I hope I will have at least captured some of the
+more interesting ones, much to the amusement of future alien
+anthropologists.
 
-However, this is only one of the steps involved in the scientific approach. The
-Tar Pit aims in a different, sometimes opposite, direction: creating and
-exposing problems, that is, finding problems in $P$ that aren't (yet) in $K$
-and discussing problems in $K$ that are worth solving but are grossly
-neglected. As [Jacob Bronowski][2] would put it, "That is the essence of
-science: ask an impertinent question, and you are on the way to a pertinent
-answer". As [Alan Perlis][3] would put it, albeit in a slightly different
-context, "Beware of the Turing tar-pit in which everything is possible but
-nothing of interest is easy". A word of warning, though: a significant part of
-the ideas exposed here are half-baked.
-
-Additionally, this is Lucian Mogoșanu's personal blog and thus will contain
-all sorts of other things that I find interesting. You can find more about me
-on my [about page][4]. To find ways to get in touch with me, see the
-[contact][5] page.
-
-The Tar Pit is Free and Open Source, and thus can be forked [on Github][6].
-
-[1]: https://www.google.com/search?q=define:%20tar%20pit
-[2]: http://en.wikipedia.org/wiki/The_Ascent_of_Man
-[3]: http://en.wikipedia.org/wiki/Turing_tarpit
-[4]: http://lucian.mogosanu.ro/about
-[5]: /contact.html
-[6]: /posts/y00/006-the-tar-pit-on-github.html
+The Tar Pit is an ever incomplete and thus necessarily flawed
+publication. After all, tar pits might not even be enumerable.

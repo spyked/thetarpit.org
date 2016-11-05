@@ -3,7 +3,9 @@
 *.hi
 _cache
 _site
+_sitebeta
 site
 dist/
 .cabal-sandbox/
 cabal.sandbox.config
+/config.lisp

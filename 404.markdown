@@ -1,9 +1,8 @@
 ---
 title: Four, oh, four, page not found
 author: Lucian Mogoșanu
-date: July 20, 2013
+date: October 29, 2016
 ---
 
-~~~~ {.haskell}
-*** Exception: TarPit.undefined
-~~~~
+The page you're looking for does not exist.  
+`[Condition of type NONEXISTING-PAGE]`
