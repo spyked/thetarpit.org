@@ -1,6 +1,7 @@
 *.swp
 *.o
 *.hi
+*.fasl
 _cache
 _site
 _sitebeta
