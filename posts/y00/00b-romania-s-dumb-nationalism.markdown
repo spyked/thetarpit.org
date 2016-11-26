@@ -94,4 +94,4 @@ spelling would have been "De ce iubesc România". And y'know, we're talking
 about the name of the country they claim to love. It's not malice, it's sheer
 incompetence, as per Hanlon's razor.
 
-[1]: http://www.vestul.ro/stiri/5505/%E2%80%9Eunirea%E2%80%9D-n-a-fost-decat-o-anexare-deghizata.htm
+[1]: http://archive.is/wMef0
