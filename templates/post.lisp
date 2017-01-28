@@ -4,44 +4,39 @@
 
 ; Macros go first
 (defmacro make-tag-list (tag-list)
-  (let ((tag (gensym))
-        (tlist (gensym)))
-    `(cl-who:htm
-      (cl-who:str "(")
-       (dolist (,tag (but-last ,tag-list))
-         (let ((,tlist (find-tag ,tag)))
-           (cl-who:htm (:a :href (gethash "uri" ,tlist) (cl-who:str ,tag))
-                       " ")))
-       (let* ((,tag (just-last ,tag-list))
-              (,tlist (find-tag ,tag)))
-         (cl-who:htm (:a :href (gethash "uri" ,tlist)
-                         (cl-who:str ,tag))))
-         (cl-who:str ")"))))
+  (with-gensyms (tag tlist)
+   `(cl-who:htm
+     (cl-who:str "(")
+     (dolist (,tag (but-last ,tag-list))
+       (let ((,tlist (find-tag ,tag)))
+         (cl-who:htm (:a :href (gethash "uri" ,tlist) (cl-who:str ,tag))
+                     " ")))
+     (let* ((,tag (just-last ,tag-list))
+            (,tlist (find-tag ,tag)))
+       (cl-who:htm (:a :href (gethash "uri" ,tlist)
+                       (cl-who:str ,tag))))
+     (cl-who:str ")"))))
        
 
 (defmacro make-post-list (blist-list)
-  (let ((blist (gensym))
-        (date (gensym))
-        (uri (gensym))
-        (title (gensym))
-        (excerpt (gensym)))
-    `(cl-who:htm
-      (:ul :class "postlist"
-           (dolist (,blist ,blist-list)
-             (let ((,date (gethash "date" ,blist))
-                   (,uri (gethash "uri" ,blist))
-                   (,title (gethash "title" ,blist))
-                   (,excerpt (gethash "excerpt" ,blist)))
-               (cl-who:htm
-                (:li :class "plitem"
-                 (cl-who:str ,date)
-                 (cl-who:str ": ")
-                 (:a :href ,uri (cl-who:str ,title))
-                 (if ,excerpt
-                     (cl-who:htm
-                      (cl-who:str ": ")
-                      (:span :class "plexcerpt"
-                             (cl-who:str ,excerpt))))))))))))
+  (with-gensyms (blist date uri title excerpt)
+   `(cl-who:htm
+     (:ul :class "postlist"
+          (dolist (,blist ,blist-list)
+            (let ((,date (gethash "date" ,blist))
+                  (,uri (gethash "uri" ,blist))
+                  (,title (gethash "title" ,blist))
+                  (,excerpt (gethash "excerpt" ,blist)))
+              (cl-who:htm
+               (:li :class "plitem"
+                    (cl-who:str ,date)
+                    (cl-who:str ": ")
+                    (:a :href ,uri (cl-who:str ,title))
+                    (if ,excerpt
+                        (cl-who:htm
+                         (cl-who:str ": ")
+                         (:span :class "plexcerpt"
+                                (cl-who:str ,excerpt))))))))))))
 
 (defun tlbs-make-post (blist)
   (let ((new-body

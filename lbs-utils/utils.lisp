@@ -37,6 +37,10 @@
 (defun count->string (L)
   (write-to-string (length L)))
 
+(defmacro with-gensyms (syms &body body)
+  `(let ,(loop for s in syms collect `(,s (gensym)))
+    ,@body))
+
 (defvar *months*
   '("January" "February" "March" "April" "May" "June" "July"
     "August" "September" "October" "November" "December"))

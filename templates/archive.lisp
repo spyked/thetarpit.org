@@ -3,25 +3,28 @@
 ;; TODO: Make a macro to obtain general forms such as the ones below
 
 ; Macros go first
+(defmacro make-label (name uri count)
+  `(cl-who:htm
+    (:a :href ,uri
+        (cl-who:str (format nil "~A (~D)"
+                            ,name ,count)))))
+
 (defmacro make-label-list ()
-  (let ((tag (gensym))
-        (tags (gensym))
-        (all-but-last (gensym))
-        (last (gensym)))
-    `(let* ((,tags (sort *tags* #'tlist-lessp))
-            (,all-but-last (but-last ,tags))
-            (,last (just-last ,tags)))
-       (setq *tags* ,tags) ; sort destroys *tags*, so update it
-       (cl-who:htm
-        (dolist (,tag ,all-but-last)
-          (make-label (gethash "tagid" ,tag)
-                      (gethash "uri" ,tag)
-                      (length (gethash "posts" ,tag)))
-          (cl-who:str ", "))
-        (when (not (null ,last))
-          (make-label (gethash "tagid" ,last)
-                      (gethash "uri" ,last)
-                      (length (gethash "posts" ,last))))))))
+  (with-gensyms (tag tags all-but-last last)
+   `(let* ((,tags (sort *tags* #'tlist-lessp))
+           (,all-but-last (but-last ,tags))
+           (,last (just-last ,tags)))
+      (setq *tags* ,tags)         ; sort destroys *tags*, so update it
+      (cl-who:htm
+       (dolist (,tag ,all-but-last)
+         (make-label (gethash "tagid" ,tag)
+                     (gethash "uri" ,tag)
+                     (length (gethash "posts" ,tag)))
+         (cl-who:str ", "))
+       (when (not (null ,last))
+         (make-label (gethash "tagid" ,last)
+                     (gethash "uri" ,last)
+                     (length (gethash "posts" ,last))))))))
 
 (defun tlbs-out-archive (output-stream)
   (cl-who:with-html-output (output-stream nil :indent nil)
@@ -47,12 +50,6 @@
              (make-post-list (gethash "posts" tlist))))))
     (setf (gethash "body" tlist) body)
     tlist))
-
-(defmacro make-label (name uri count)
-  `(cl-who:htm
-    (:a :href ,uri
-        (cl-who:str (format nil "~A (~D)"
-                            ,name ,count)))))
 
 (defun tlist-lessp (tlist1 tlist2)
   (string-lessp (gethash "tagid" tlist1)

@@ -8,23 +8,24 @@
 ;; - *lbs-path*: an emulation of unix's PATH envvar
 ;; - *lbs-site*: directory where the output files will be stored
 
-;; Add LBS dependencies
-(push (concatenate 'string *lbs-base* "cl-who/") *lbs-path*) ; cl-who
-(push (concatenate 'string *lbs-base* "cl-ppcre/") *lbs-path*) ; cl-ppcre
-(push (concatenate 'string *lbs-base* "lbs-utils/") *lbs-path*) ; cl-ppcre
+(eval-when (:compile-toplevel :execute :load-toplevel)
+  ;; Add LBS dependencies
+  (push (concatenate 'string *lbs-base* "cl-who/") *lbs-path*) ; cl-who
+  (push (concatenate 'string *lbs-base* "cl-ppcre/") *lbs-path*) ; cl-ppcre
+  (push (concatenate 'string *lbs-base* "lbs-utils/") *lbs-path*) ; lbs-utils
 
-; Set paths and change dir (SBCL-specific)
-(dolist (path *lbs-path*)
-  (if (not (member path asdf:*central-registry*))
-      (push path asdf:*central-registry*)))
-(sb-posix:chdir *lbs-base*)
-(setq *default-pathname-defaults* (pathname *lbs-base*))
+  ; Set paths and change dir (SBCL-specific)
+  (dolist (path *lbs-path*)
+    (if (not (member path asdf:*central-registry*))
+        (push path asdf:*central-registry*)))
+  (sb-posix:chdir *lbs-base*)
+  (setq *default-pathname-defaults* (pathname *lbs-base*))
 
-; Load libraries
-(require 'asdf)
-(asdf:load-system :cl-who)
-(asdf:load-system :cl-ppcre)
-(asdf:load-system :lbs-utils)
+  ; Load libraries
+  (require 'asdf)
+  (asdf:load-system :cl-who)
+  (asdf:load-system :cl-ppcre)
+  (asdf:load-system :lbs-utils))
 
 ; TLBS global variables
 (defvar *posts* nil) ; list of post blists
@@ -33,8 +34,8 @@
 
 ; Load template definitions
 (load (concatenate 'string *lbs-base* "templates/default.lisp"))
-(load (concatenate 'string *lbs-base* "templates/index.lisp"))
 (load (concatenate 'string *lbs-base* "templates/post.lisp"))
+(load (concatenate 'string *lbs-base* "templates/index.lisp"))
 (load (concatenate 'string *lbs-base* "templates/archive.lisp"))
 (load (concatenate 'string *lbs-base* "templates/rss.lisp"))
 
