@@ -90,30 +90,33 @@
     (write-string (gethash "body" blist) out))
   blist)
 
-(defun tlbs-process-posts ()
+(defun tlbs-process-posts (relative-wildcard)
   (format t "Processing posts...~%")
   ; clean up old posts first...
   (setq *posts* nil
         *tags* nil)
-  (dolist (x (directory (concatenate 'string *lbs-base* "posts/**/*.markdown")))
-    (format t "[proc] ~s~%" x)
-    (let* ((relative-pathname (post-relative-pathname x))
-           (blist (tlbs-make-blist relative-pathname)))
-      ; markdown -> html
-      (pipe-through-pandoc blist)
-      ; process tags
-      (tlbs-make-tagids blist)
-      ; post template
-      (tlbs-make-post blist)
-      ; default page template
-      (tlbs-make-default blist)
-      ; write to file
-      (tlbs-write-blist blist)
-      ; make sure body is erased when done writing
-      ; XXX: the body might still be needed when generating RSS
-      (setf (gethash "body" blist) nil)
-      ; add to post list
-      (push blist *posts*)))
+  (let ((postlist (directory
+                   (concatenate 'string *lbs-base* relative-wildcard))))
+    (assert (not (null postlist)))
+    (dolist (x postlist)
+      (format t "[proc] ~s~%" x)
+      (let* ((relative-pathname (post-relative-pathname x))
+             (blist (tlbs-make-blist relative-pathname)))
+        ; markdown -> html
+        (pipe-through-pandoc blist)
+        ; process tags
+        (tlbs-make-tagids blist)
+        ; post template
+        (tlbs-make-post blist)
+        ; default page template
+        (tlbs-make-default blist)
+        ; write to file
+        (tlbs-write-blist blist)
+        ; make sure body is erased when done writing
+        ; XXX: the body might still be needed when generating RSS
+        (setf (gethash "body" blist) nil)
+        ; add to post list
+        (push blist *posts*))))
   nil)
 
 (defun tlbs-process-page (out-path blist)
@@ -227,7 +230,7 @@
 
 (defun tlbs-process-everything ()
   ; posts: needed for everything, so process them first
-  (tlbs-process-posts)
+  (tlbs-process-posts "posts/**/*.markdown")
   ; tags
   (tlbs-process-tags)
   ; other files
@@ -239,6 +242,24 @@
   ; markdown pages: about, 403, 404, etc.
   (dolist (page '(#p"about.markdown" #p"403.markdown" #p"404.markdown"))
     (tlbs-process-markdown-page page))
+  ; archive
+  (tlbs-process-archive)
+  ; index
+  (tlbs-process-index))
+
+(defun tlbs-process-postid (idstr)
+  ; we shouldn't need to process all the posts in order to have
+  ; references updated, but we're too lazy to keep track of dependencies
+  (tlbs-process-posts (concatenate 'string
+                                   "posts/**/" idstr "-*.markdown"))
+  ; tags
+  (tlbs-process-tags)
+  ; other files
+  (tlbs-process-other-files)
+  ; RSS
+  (tlbs-process-rss)
+
+  (format t "Processing everything else...~%")
   ; archive
   (tlbs-process-archive)
   ; index
