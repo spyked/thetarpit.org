@@ -264,3 +264,10 @@
   (tlbs-process-archive)
   ; index
   (tlbs-process-index))
+
+(defun deploy-site ()
+  (uiop:run-program (format nil "rsync -avz -e '~a' ~a/* ~a"
+                            "ssh -p 2200"
+                            *lbs-site*
+                            "mogosanu.ro:/virtual/sites/thetarpit.org")
+                    :output *standard-output*))
