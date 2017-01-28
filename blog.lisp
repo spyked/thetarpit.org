@@ -31,6 +31,7 @@
 (defvar *posts* nil) ; list of post blists
 (defvar *pages* nil)
 (defvar *tags* nil)
+(defvar *busybox-process* nil)
 
 ; Load template definitions
 (load (concatenate 'string *lbs-base* "templates/default.lisp"))
@@ -265,9 +266,30 @@
   ; index
   (tlbs-process-index))
 
-(defun deploy-site ()
+(defun tlbs-deploy-site ()
   (uiop:run-program (format nil "rsync -avz -e '~a' ~a/* ~a"
                             "ssh -p 2200"
                             *lbs-site*
                             "mogosanu.ro:/virtual/sites/thetarpit.org")
                     :output *standard-output*))
+
+(defun tlbs-run-site (&key kill)
+  (cond
+    ((and (not *busybox-process*) (not kill))
+     (setq *busybox-process*
+           (sb-ext:run-program "/bin/busybox"
+                               (list "httpd" "-f"
+                                     "-p" "8000"
+                                     "-h" *lbs-site*)
+                               :wait nil)))
+    ((and (not *busybox-process*) kill)
+     (format t "Busybox process does not exist."))
+    ((and *busybox-process* (not kill))
+     (format t "Busybox process already exists."))
+    ((and *busybox-process* kill)
+     (sb-ext:process-kill *busybox-process* 2 :pid)
+     (sb-ext:process-wait *busybox-process*)
+     (sb-ext:process-close *busybox-process*)
+     (let ((code (sb-ext:process-exit-code *busybox-process*)))
+       (setq *busybox-process* nil)
+       code))))
