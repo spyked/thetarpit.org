@@ -1,5 +1,5 @@
 ---
-postid: '042'
+postid: 042
 title: Category theory and its application in software engineering
 date: January 30, 2016
 author: Lucian Mogoșanu

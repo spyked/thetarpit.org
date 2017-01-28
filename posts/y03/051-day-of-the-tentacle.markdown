@@ -1,5 +1,5 @@
 ---
-postid: '051'
+postid: 051
 title: Day of the Tentacle
 date: October 22, 2016
 author: Lucian Mogoșanu

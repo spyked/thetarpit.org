@@ -1,6 +1,6 @@
 ---
-postid: '047'
-title: 'The Tar Pit: about [ii]'
+postid: 047
+title: The Tar Pit: about [ii]
 date: April 29, 2016
 author: Lucian Mogoșanu
 tags: meta

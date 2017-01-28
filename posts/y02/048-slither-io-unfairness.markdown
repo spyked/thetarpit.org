@@ -1,5 +1,5 @@
 ---
-postid: '048'
+postid: 048
 title: slither.io, and a few thoughts on the unfairness of nature
 date: May 3, 2016
 author: Lucian Mogoșanu

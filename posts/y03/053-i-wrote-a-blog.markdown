@@ -1,5 +1,5 @@
 ---
-postid: '053'
+postid: 053
 title: I wrote a blog.
 date: November 6, 2016
 author: Lucian Mogoșanu

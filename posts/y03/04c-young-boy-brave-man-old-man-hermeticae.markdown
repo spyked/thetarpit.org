@@ -1,5 +1,5 @@
 ---
-postid: '04c'
+postid: 04c
 title: The young Boy, the brave Man and the old Man (fabellae hermeticae)
 date: July 24, 2016
 author: Lucian Mogoșanu

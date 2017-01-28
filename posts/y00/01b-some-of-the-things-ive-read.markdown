@@ -1,5 +1,5 @@
 ---
-postid: '01b'
+postid: 01b
 title: Some of the things I've read
 excerpt: Previously dubbed "On reading".
 author: Lucian Mogoșanu

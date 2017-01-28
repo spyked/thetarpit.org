@@ -1,5 +1,5 @@
 ---
-postid: '052'
+postid: 052
 title: On the unambiguous usefulness of tools (in software and elsewhere)
 date: November 5, 2016
 author: Lucian Mogoșanu

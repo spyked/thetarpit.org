@@ -1,5 +1,5 @@
 ---
-postid: '04a'
+postid: 04a
 title: On security
 date: May 29, 2016
 author: Lucian Mogoșanu

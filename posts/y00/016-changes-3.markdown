@@ -1,6 +1,6 @@
 ---
-postid: '016'
-title: 'The Tar Pit: changes [iii]'
+postid: 016
+title: The Tar Pit: changes [iii]
 excerpt: Journal entry for The Tar Pit version 0.3.
 author: Lucian Mogoșanu
 date: January 2, 2014

@@ -1,5 +1,5 @@
 ---
-postid: '037'
+postid: 037
 title: Thoughts on Charlie Hebdo, and the absolute necessity of offending people
 excerpt: Je ne suis pas Charlie, mais je pense encore
 date: March 8, 2015

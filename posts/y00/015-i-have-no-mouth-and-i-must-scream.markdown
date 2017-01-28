@@ -1,5 +1,5 @@
 ---
-postid: '015'
+postid: 015
 title: I have no mouth, and I must scream
 author: Lucian Mogoșanu
 date: December 22, 2013

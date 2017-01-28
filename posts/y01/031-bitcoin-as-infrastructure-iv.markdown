@@ -1,5 +1,5 @@
 ---
-postid: '031'
+postid: 031
 title: Bitcoin as infrastructure [iv]
 date: December 26, 2014
 author: Lucian Mogoșanu

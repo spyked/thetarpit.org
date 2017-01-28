@@ -1,5 +1,5 @@
 ---
-postid: '00f'
+postid: 00f
 title: A change of mentality
 author: Lucian Mogoșanu
 excerpt: Romanian mentality is changing, only not in the way we expect it to.

@@ -1,5 +1,5 @@
 ---
-postid: '032'
+postid: 032
 title: Your worth to humanity
 excerpt: A thought experiment on the Renaissance man.
 date: January 2, 2015

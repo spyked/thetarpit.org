@@ -1,5 +1,5 @@
 ---
-postid: '010'
+postid: 010
 title: Haskell, the Lego of programming
 author: Lucian Mogoșanu
 excerpt: In which I argue the utility of functional programming in education and day-to-day activities.

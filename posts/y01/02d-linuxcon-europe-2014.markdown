@@ -1,5 +1,5 @@
 ---
-postid: '02d'
+postid: 02d
 title: LinuxCon Europe 2014
 date: November 8, 2014
 author: Lucian Mogoșanu

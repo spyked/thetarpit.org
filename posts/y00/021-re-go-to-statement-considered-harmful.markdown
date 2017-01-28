@@ -1,6 +1,6 @@
 ---
-postid: '021'
-title: 'Re: Go-to statement considered harmful'
+postid: 021
+title: Re: Go-to statement considered harmful
 excerpt: Yet another rant on the difficulty of the discipline of programming.
 date: May 24, 2014
 author: Lucian Mogoșanu

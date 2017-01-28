@@ -1,9 +1,9 @@
 ---
-postid: '033'
+postid: 033
 title: The Blackwell series
 date: January 25, 2015
 author: Lucian Mogoșanu
-tags: gaming 
+tags: gaming
 ---
 
 <p style="text-align: right">

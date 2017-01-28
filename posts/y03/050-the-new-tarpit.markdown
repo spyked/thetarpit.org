@@ -1,5 +1,5 @@
 ---
-postid: '050'
+postid: 050
 title: Placing the cornerstone for The new Tar Pit
 excerpt: Much like the old one, only slimmer and more maintainable
 date: September 18, 2016

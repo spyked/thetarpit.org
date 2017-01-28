@@ -1,5 +1,5 @@
 ---
-postid: '00a'
+postid: 00a
 title: Conversation view in Mutt
 excerpt: Making some elements of Mutt's user interface look more like Gmail.
 author: Lucian Mogoșanu

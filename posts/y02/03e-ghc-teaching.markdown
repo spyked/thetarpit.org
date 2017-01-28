@@ -1,5 +1,5 @@
 ---
-postid: '03e'
+postid: 03e
 title: Glasgow Haskell Compiler no longer suitable for teaching
 date: November 8, 2015
 author: Lucian Mogoșanu

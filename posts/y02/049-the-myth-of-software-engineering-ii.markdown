@@ -1,5 +1,5 @@
 ---
-postid: '049'
+postid: 049
 title: Further on the myth of "software engineering"
 date: May 14, 2016
 author: Lucian Mogoșanu
