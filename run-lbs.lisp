@@ -7,4 +7,4 @@
 (load "blog.lisp")
 
 ;; Process everything
-(tlbs-process-everything)
+;(tlbs-process-everything)
