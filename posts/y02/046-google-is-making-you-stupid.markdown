@@ -1,5 +1,5 @@
 ---
-postid: '046'
+postid: 046
 title: Ok, I was wrong, it seems that Google is indeed "making you stupid"
 date: April 24, 2016
 author: Lucian Mogoșanu

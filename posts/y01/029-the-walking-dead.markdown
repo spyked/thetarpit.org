@@ -1,9 +1,9 @@
 ---
-postid: '029'
+postid: 029
 title: The Walking Dead
 date: September 8, 2014
 author: Lucian Mogoșanu
-tags: gaming 
+tags: gaming
 ---
 
 <p style="text-align: right">

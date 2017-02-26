@@ -1,0 +1,12 @@
+;; Tarpit Lisp Blog Scaffolding
+;;
+;; A static blog generator, config file
+
+; The site installation's base directory
+(defvar *lbs-base* "/home/thetarpit/")
+
+; A list of paths where we look for Lisp dependencies, e.g. libraries
+(defvar *lbs-path* nil)
+
+; Path to the directory where the static site will be spat
+(defvar *lbs-site* (concatenate 'string *lbs-base* "_site/"))

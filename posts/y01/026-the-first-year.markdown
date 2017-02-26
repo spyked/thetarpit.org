@@ -1,6 +1,6 @@
 ---
-postid: '026'
-title: 'The Tar Pit: the first year'
+postid: 026
+title: The Tar Pit: the first year
 excerpt: A quantitative analysis.
 author: Lucian Mogoșanu
 date: August 2, 2014

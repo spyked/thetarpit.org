@@ -1,5 +1,5 @@
 ---
-postid: '04b'
+postid: 04b
 title: We
 date: July 16, 2016
 author: Lucian Mogoșanu

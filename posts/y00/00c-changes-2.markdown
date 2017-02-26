@@ -1,6 +1,6 @@
 ---
-postid: '00c'
-title: 'The Tar Pit: changes [ii]'
+postid: 00c
+title: The Tar Pit: changes [ii]
 excerpt: A review of additional changes made to enhance The Tar Pit's look.
 author: Lucian Mogoșanu
 date: August 26, 2013

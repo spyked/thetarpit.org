@@ -1,5 +1,5 @@
 ---
-postid: '043'
+postid: 043
 title: On the failure of marketing (and civilization in general)
 date: February 14, 2016
 author: Lucian Mogoșanu

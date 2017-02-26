@@ -1,5 +1,5 @@
 ---
-postid: '04e'
+postid: 04e
 title: On system reliability, or, a top-down approach to (dispel the myth of) "software engineering"
 date: August 18, 2016
 author: Lucian Mogoșanu

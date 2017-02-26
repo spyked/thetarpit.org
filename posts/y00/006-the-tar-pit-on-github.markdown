@@ -1,5 +1,5 @@
 ---
-postid: '006'
+postid: 006
 title: The Tar Pit on Github
 excerpt: The Tar Pit goes Open Source.
 author: Lucian Mogoșanu

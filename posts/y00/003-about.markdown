@@ -1,6 +1,6 @@
 ---
-postid: '003'
-title: 'The Tar Pit: about'
+postid: 003
+title: The Tar Pit: about
 excerpt: The Tar Pit's description becomes available.
 author: Lucian Mogoșanu
 date: July 29, 2013

@@ -1,5 +1,5 @@
 ---
-postid: '00b'
+postid: 00b
 title: Romania's dumb nationalism
 excerpt: Critique on today's Romanian nationalism.
 author: Lucian Mogoșanu

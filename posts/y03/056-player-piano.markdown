@@ -1,5 +1,5 @@
 ---
-postid: '056'
+postid: 056
 title: Player Piano
 date: January 22, 2017
 author: Lucian Mogoșanu

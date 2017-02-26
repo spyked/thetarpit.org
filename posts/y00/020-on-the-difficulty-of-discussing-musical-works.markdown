@@ -1,5 +1,5 @@
 ---
-postid: '020'
+postid: 020
 title: On the difficulty of discussing musical works
 date: May 17, 2014
 author: Lucian Mogoșanu

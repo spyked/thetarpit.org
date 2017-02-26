@@ -1,5 +1,5 @@
 ---
-postid: '03b'
+postid: 03b
 title: Conservatism meets liberalism
 excerpt: A critique of modern politics.
 date: July 20, 2015

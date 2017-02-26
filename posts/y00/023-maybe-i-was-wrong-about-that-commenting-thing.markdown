@@ -1,5 +1,5 @@
 ---
-postid: '023'
+postid: 023
 title: Maybe I was wrong about that commenting thing
 excerpt: Re-dissecting the thorny issue of blog comments.
 date: June 8, 2014

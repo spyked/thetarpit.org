@@ -1,5 +1,5 @@
 ---
-postid: '02f'
+postid: 02f
 title: On usability, a case study
 date: December 6, 2014
 author: Lucian Mogoșanu

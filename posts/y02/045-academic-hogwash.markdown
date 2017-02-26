@@ -1,6 +1,6 @@
 ---
-postid: '045'
-title: 'Academic hogwash: an empirical study thereof'
+postid: 045
+title: Academic hogwash: an empirical study thereof
 excerpt: In which we analyze the circular motivations behind academic publishing. Probably a rehash of some other essay, but it's ok to do it nowadays.
 date: April 9, 2016
 author: Lucian Mogoșanu

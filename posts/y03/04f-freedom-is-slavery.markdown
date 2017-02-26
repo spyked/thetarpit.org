@@ -1,5 +1,5 @@
 ---
-postid: '04f'
+postid: 04f
 title: Freedom is Slavery, or how and why everything costs
 excerpt: On the pitfalls of doublespoken equality.
 date: August 22, 2016

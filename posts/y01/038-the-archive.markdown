@@ -1,5 +1,5 @@
 ---
-postid: '038'
+postid: 038
 title: Humanity's informational archive™
 date: May 3, 2015
 author: Lucian Mogoșanu

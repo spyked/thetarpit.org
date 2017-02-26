@@ -1,6 +1,6 @@
 ---
-postid: '01c'
-title: "3D printing: what you (probably) haven't considered (yet)"
+postid: 01c
+title: 3D printing: what you (probably) haven't considered (yet)
 excerpt: A few predictions regarding the future of open hardware.
 author: Lucian Mogoșanu
 date: March 22, 2014

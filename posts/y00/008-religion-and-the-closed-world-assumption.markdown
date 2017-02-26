@@ -1,5 +1,5 @@
 ---
-postid: '008'
+postid: 008
 title: Religion and the closed world assumption
 excerpt: An essay on the formalisms behind atheism and the relevance of religion in modern society.
 author: Lucian Mogoșanu

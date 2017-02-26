@@ -1,5 +1,5 @@
 ---
-postid: '035'
+postid: 035
 title: With our balls clean
 excerpt: Or how Homo sapiens survived in the dark ages of the first personal computers.
 date: February 14, 2015

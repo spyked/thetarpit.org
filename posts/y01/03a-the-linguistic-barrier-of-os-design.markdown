@@ -1,5 +1,5 @@
 ---
-postid: '03a'
+postid: 03a
 title: The linguistic barrier of operating system design
 excerpt: A proposal to redesign the OS architecture from first principles.
 date: July 11, 2015

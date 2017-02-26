@@ -1,5 +1,5 @@
 ---
-postid: '019'
+postid: 019
 title: Passwords versus passphrases
 excerpt: A layman's analysis of XKCD's "Password Strength".
 author: Lucian Mogoșanu

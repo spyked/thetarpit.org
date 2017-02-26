@@ -1,5 +1,5 @@
 ---
-postid: '054'
+postid: 054
 title: Deșteaptă-te, române!
 excerpt: The dissection of a national anthem
 date: November 26, 2016

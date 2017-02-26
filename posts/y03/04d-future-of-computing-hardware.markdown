@@ -1,5 +1,5 @@
 ---
-postid: '04d'
+postid: 04d
 title: On the future of computing hardware
 date: August 7, 2016
 author: Lucian Mogoșanu

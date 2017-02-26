@@ -1,5 +1,5 @@
 ---
-postid: '055'
+postid: 055
 title: Let's find out why most educational institutions yield graduates that make dumb (or otherwise unknowledgeable) people
 excerpt: A companion piece to Grade Inflation and La ce imi serveste mie radicalurile?
 date: January 3, 2017

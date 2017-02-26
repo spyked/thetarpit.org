@@ -1,5 +1,5 @@
 ---
-postid: '03f'
+postid: 03f
 title: Android, the bad and the ugly
 date: November 22, 2015
 author: Lucian Mogoșanu

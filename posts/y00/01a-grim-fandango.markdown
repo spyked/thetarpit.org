@@ -1,5 +1,5 @@
 ---
-postid: '01a'
+postid: 01a
 title: Grim Fandango
 author: Lucian Mogoșanu
 date: February 23, 2014

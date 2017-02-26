@@ -1,5 +1,5 @@
 ---
-postid: '030'
+postid: 030
 title: Interstellar, or why deus ex machinae in science fiction are a bad idea
 date: December 20, 2014
 author: Lucian Mogoșanu

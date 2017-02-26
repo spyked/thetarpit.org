@@ -1,5 +1,5 @@
 ---
-postid: '009'
+postid: 009
 title: ROSEdu Haskell workshop, first edition
 author: Lucian Mogoșanu
 date: August 15, 2013
