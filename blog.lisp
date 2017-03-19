@@ -100,23 +100,26 @@
                    (concatenate 'string *lbs-base* relative-wildcard))))
     (assert (not (null postlist)))
     (dolist (x postlist)
-      (format t "[proc] ~s~%" x)
       (let* ((relative-pathname (post-relative-pathname x))
-             (blist (tlbs-make-blist relative-pathname)))
-        ; markdown -> html
-        (pipe-through-pandoc blist)
-        ; process tags
+             (blist (tlbs-make-blist relative-pathname))
+             (in-path (gethash "in-path" blist))
+             (out-path (gethash "out-path" blist)))
+        ;; process tags
         (tlbs-make-tagids blist)
-        ; post template
-        (tlbs-make-post blist)
-        ; default page template
-        (tlbs-make-default blist)
-        ; write to file
-        (tlbs-write-blist blist)
-        ; make sure body is erased when done writing
-        ; XXX: the body might still be needed when generating RSS
-        (setf (gethash "body" blist) nil)
-        ; add to post list
+        (when (file-modified in-path out-path)
+            (format t "[proc] ~s~%" x)
+            ;; markdown -> html
+            (pipe-through-pandoc blist)
+            ;; post template
+            (tlbs-make-post blist)
+            ;; default page template
+            (tlbs-make-default blist)
+            ;; write to file
+            (tlbs-write-blist blist)
+            ;; make sure body is erased when done writing
+            ;; XXX: the body might still be needed when generating RSS
+            (setf (gethash "body" blist) nil))
+        ;; add to post list
         (push blist *posts*))))
   nil)
 
@@ -199,8 +202,11 @@
       (let* ((relative-pathname (post-relative-pathname in-path))
              (out-path (concat-pathnames out-base-dir
                                          relative-pathname)))
-        (format t "[copy] ~s~%" in-path)
-        (tlbs-copy-file in-path out-path))
+        ;; XXX This probably not too reliable, would need to keep some
+        ;; hashes...
+        (when (file-modified in-path out-path)
+            (format t "[copy] ~s~%" in-path)
+            (tlbs-copy-file in-path out-path)))
       (dolist (new-in-path (directory (concat-pathnames in-path #p"*.*")))
         (tlbs-copy-recursively new-in-path out-base-dir))))
 

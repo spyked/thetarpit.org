@@ -1,6 +1,6 @@
-;; Tarpit LBS utility library
+;;; Tarpit LBS utility library
 
-; This assumes pathnames are absolute to *lbs-base*
+;; This assumes pathnames are absolute to *lbs-base*
 (defun post-relative-pathname (pathname)
   (enough-namestring pathname (pathname *lbs-base*)))
 
@@ -17,6 +17,13 @@
                       (cdr (pathname-directory path2)))
    :name (pathname-name path2)
    :type (pathname-type path2)))
+
+;; XXX Not sure this should look this way. Probably comparing in-path to
+;; a reference hash of out-path might be better.
+(defun file-modified (in-path out-path)
+  (or (not (probe-file out-path))
+                (> (sb-posix:stat-mtime (sb-posix:stat in-path))
+                   (sb-posix:stat-mtime (sb-posix:stat out-path)))))
 
 ;; General utility functions
 (defun but-last (L)
