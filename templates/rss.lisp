@@ -40,7 +40,8 @@
                         (:item
                          (:title (cl-who:str (gethash "title" blist)))
                          (:link (cl-who:str abs-url))
-                         (:description (to-cdata (gethash "body" blist)))
+                         ;(:description (to-cdata (gethash "body" blist)))
+                         (:description (to-cdata "NIL"))
                          (:pubDate (cl-who:str
                                     (post-date->build-date
                                      (gethash "date" blist))))
